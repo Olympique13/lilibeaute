@@ -1,0 +1,33 @@
+08-02-2024 20:42:47 - INFO  - 8.1.1 - 104,6 Mo/ - admin > Start upgrade from 7.9.2
+08-02-2024 20:42:47 - INFO  - 8.1.1 - 104,6 Mo/ - admin > Array
+(
+    [`wp_newsletter_emails`] => Created table `wp_newsletter_emails`
+)
+
+08-02-2024 20:42:47 - INFO  - 8.1.1 - 104,6 Mo/ - admin > Array
+(
+    [`wp_newsletter_sent`] => Created table `wp_newsletter_sent`
+)
+
+08-02-2024 20:42:47 - INFO  - 8.1.1 - 104,6 Mo/ - admin > Array
+(
+    [`wp_newsletter`] => Created table `wp_newsletter`
+)
+
+08-02-2024 20:42:47 - INFO  - 8.1.1 - 104,6 Mo/ - admin > Array
+(
+    [`wp_newsletter_user_logs`] => Created table `wp_newsletter_user_logs`
+)
+
+08-02-2024 20:42:47 - INFO  - 8.1.1 - 104,6 Mo/ - admin > Array
+(
+    [`wp_newsletter_user_meta`] => Created table `wp_newsletter_user_meta`
+)
+
+08-02-2024 20:42:47 - INFO  - 8.1.1 - 104,6 Mo/ - admin > Array
+(
+    [`wp_newsletter_stats`] => Created table `wp_newsletter_stats`
+)
+
+08-02-2024 20:42:47 - INFO  - 8.1.1 - 104,6 Mo/ - admin > Backing up options of 7.9.2
+08-02-2024 20:42:47 - INFO  - 8.1.1 - 104,6 Mo/ - admin > End

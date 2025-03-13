@@ -1,0 +1,14 @@
+/* Toolbar */
+
+.block-editor-block-toolbar .emoji-toolbar {
+	position: relative;
+}
+
+.block-editor-block-toolbar .emoji-toolbar::before {
+	content: "";
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	background-color: #ffd54f;
+}

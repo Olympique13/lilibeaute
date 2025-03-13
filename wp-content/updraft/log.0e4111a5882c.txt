@@ -1,0 +1,1176 @@
+0000.000 (0) Opened log file at time: Sat, 01 Apr 2023 11:15:18 +0000 on http://lilibeaute-coiffure.fr
+0000.006 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.3 WP: 6.1.1 PHP: 8.1.17 (cgi-fcgi, Linux info 3.0 #1337 SMP Tue Jan 01 00:00:00 CEST 2000 all GNU/Linux) MySQL: 8.0.26 (max packet size=67108864) WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: -1 (used: 108.3M | 111M) multisite: N openssl: OpenSSL 1.1.1n  15 Mar 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.010 (0) Free space on disk containing Updraft's temporary directory: 683720.1 MB
+0000.017 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.021 (0) Semaphore (fd, wp_options) being initialised
+0000.033 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.045 (0) Set semaphore last lock (fd) time to 2023-04-01 11:15:18
+0000.048 (0) Semaphore lock (fd) complete
+0000.065 (0) Backup run: resumption=0, nonce=0e4111a5882c, file_nonce=0e4111a5882c begun at=1680347718 (0s ago), job type=backup
+0000.074 (0) Scheduling a resumption (1) after 300 seconds (1680348018) in case this run gets aborted
+0000.136 (0) Checking if we have a zip executable available
+0000.141 (0) Testing: /usr/bin/zip
+0000.185 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.190 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.196 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.200 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.206 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.238 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.243 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.253 (0) Working binary zip found: /usr/bin/zip
+0000.260 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.263 (0) Creation of backups of directories: beginning
+0000.274 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.544 (0) Total entities for the zip file: 3124 directories, 16783 files (0 skipped as non-modified), 183.2 MB
+0000.551 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.557 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.562 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.568 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.574 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.579 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.584 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.589 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.598 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.602 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.606 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (5.6 MB, 16783 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0001.308 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: size is now: 3.00 MB
+0001.318 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 1100 files added (on-disk size: 3023.8 KB)
+0001.324 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 1200 files added (on-disk size: 3023.8 KB)
+0001.334 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 1300 files added (on-disk size: 3023.8 KB)
+0001.340 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 1400 files added (on-disk size: 3023.8 KB)
+0001.345 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 1500 files added (on-disk size: 3023.8 KB)
+0001.351 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 1600 files added (on-disk size: 3023.8 KB)
+0001.356 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 1700 files added (on-disk size: 3023.8 KB)
+0001.362 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 1800 files added (on-disk size: 3023.8 KB)
+0001.367 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 1900 files added (on-disk size: 3023.8 KB)
+0001.374 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 2000 files added (on-disk size: 3023.8 KB)
+0001.378 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (16.4 MB, 16783 files batched, 1001 (2002) added so far); re-opening (prior size: 3023.8 KB)
+0002.649 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: size is now: 9.30 MB
+0002.666 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 2100 files added (on-disk size: 9549.4 KB)
+0002.673 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 2200 files added (on-disk size: 9549.4 KB)
+0002.678 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 2300 files added (on-disk size: 9549.4 KB)
+0002.684 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 2400 files added (on-disk size: 9549.4 KB)
+0002.690 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 2500 files added (on-disk size: 9549.4 KB)
+0002.696 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 2600 files added (on-disk size: 9549.4 KB)
+0002.703 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 2700 files added (on-disk size: 9549.4 KB)
+0002.709 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 2800 files added (on-disk size: 9549.4 KB)
+0002.714 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 2900 files added (on-disk size: 9549.4 KB)
+0002.719 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 3000 files added (on-disk size: 9549.4 KB)
+0002.724 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (4.4 MB, 16783 files batched, 1001 (3003) added so far); re-opening (prior size: 9549.4 KB)
+0003.244 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 3100 files added (on-disk size: 11177.2 KB)
+0003.249 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 3200 files added (on-disk size: 11177.2 KB)
+0003.255 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 3300 files added (on-disk size: 11177.2 KB)
+0003.260 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 3400 files added (on-disk size: 11177.2 KB)
+0003.266 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 3500 files added (on-disk size: 11177.2 KB)
+0003.271 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 3600 files added (on-disk size: 11177.2 KB)
+0003.277 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 3700 files added (on-disk size: 11177.2 KB)
+0003.282 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 3800 files added (on-disk size: 11177.2 KB)
+0003.288 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 3900 files added (on-disk size: 11177.2 KB)
+0003.293 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 4000 files added (on-disk size: 11177.2 KB)
+0003.297 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (21.4 MB, 16783 files batched, 1001 (4004) added so far); re-opening (prior size: 11177.2 KB)
+0004.088 (0) PHP event: code E_WARNING: filesize(): stat failed for /homepages/10/d955808460/htdocs/wordpress/wp-content/updraft/backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp (line 506, wp-content/plugins/updraftplus/includes/class-zip.php)
+0004.093 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: size is now: 27.00 MB
+0004.106 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 4100 files added (on-disk size: 27646.3 KB)
+0004.111 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 4200 files added (on-disk size: 27646.3 KB)
+0004.117 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 4300 files added (on-disk size: 27646.3 KB)
+0004.124 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 4400 files added (on-disk size: 27646.3 KB)
+0004.130 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 4500 files added (on-disk size: 27646.3 KB)
+0004.136 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 4600 files added (on-disk size: 27646.3 KB)
+0004.142 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 4700 files added (on-disk size: 27646.3 KB)
+0004.150 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 4800 files added (on-disk size: 27646.3 KB)
+0004.156 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 4900 files added (on-disk size: 27646.3 KB)
+0004.164 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 5000 files added (on-disk size: 27646.3 KB)
+0004.168 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (12.9 MB, 16783 files batched, 1001 (5005) added so far); re-opening (prior size: 27646.3 KB)
+0004.949 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 5100 files added (on-disk size: 31406.4 KB)
+0004.956 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 5200 files added (on-disk size: 31406.4 KB)
+0004.962 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 5300 files added (on-disk size: 31406.4 KB)
+0004.967 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 5400 files added (on-disk size: 31406.4 KB)
+0004.975 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 5500 files added (on-disk size: 31406.4 KB)
+0004.983 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 5600 files added (on-disk size: 31406.4 KB)
+0004.989 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 5700 files added (on-disk size: 31406.4 KB)
+0005.005 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 5800 files added (on-disk size: 31406.4 KB)
+0005.010 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 5900 files added (on-disk size: 31406.4 KB)
+0005.017 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 6000 files added (on-disk size: 31406.4 KB)
+0005.020 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (11.7 MB, 16783 files batched, 1001 (6006) added so far); re-opening (prior size: 31406.4 KB)
+0005.700 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 6100 files added (on-disk size: 36594.4 KB)
+0005.705 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 6200 files added (on-disk size: 36594.4 KB)
+0005.711 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 6300 files added (on-disk size: 36594.4 KB)
+0005.716 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 6400 files added (on-disk size: 36594.4 KB)
+0005.723 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 6500 files added (on-disk size: 36594.4 KB)
+0005.730 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 6600 files added (on-disk size: 36594.4 KB)
+0005.735 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 6700 files added (on-disk size: 36594.4 KB)
+0005.740 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 6800 files added (on-disk size: 36594.4 KB)
+0005.746 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 6900 files added (on-disk size: 36594.4 KB)
+0005.751 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 7000 files added (on-disk size: 36594.4 KB)
+0005.755 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (10.1 MB, 16783 files batched, 1001 (7007) added so far); re-opening (prior size: 36594.4 KB)
+0007.340 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 7100 files added (on-disk size: 39733.7 KB)
+0007.346 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 7200 files added (on-disk size: 39733.7 KB)
+0007.361 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 7300 files added (on-disk size: 39733.7 KB)
+0007.372 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 7400 files added (on-disk size: 39733.7 KB)
+0007.392 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 7500 files added (on-disk size: 39733.7 KB)
+0007.398 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 7600 files added (on-disk size: 39733.7 KB)
+0007.402 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 7700 files added (on-disk size: 39733.7 KB)
+0007.407 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 7800 files added (on-disk size: 39733.7 KB)
+0007.416 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 7900 files added (on-disk size: 39733.7 KB)
+0007.422 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 8000 files added (on-disk size: 39733.7 KB)
+0007.425 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (16 MB, 16783 files batched, 1001 (8008) added so far); re-opening (prior size: 39733.7 KB)
+0008.697 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 8100 files added (on-disk size: 47528.3 KB)
+0008.714 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 8200 files added (on-disk size: 47528.3 KB)
+0008.724 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 8300 files added (on-disk size: 47528.3 KB)
+0008.736 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 8400 files added (on-disk size: 47528.3 KB)
+0008.743 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 8500 files added (on-disk size: 47528.3 KB)
+0008.757 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 8600 files added (on-disk size: 47528.3 KB)
+0008.789 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 8700 files added (on-disk size: 47528.3 KB)
+0008.803 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 8800 files added (on-disk size: 47528.3 KB)
+0008.815 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 8900 files added (on-disk size: 47528.3 KB)
+0008.828 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 9000 files added (on-disk size: 47528.3 KB)
+0008.832 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8.5 MB, 16783 files batched, 1001 (9009) added so far); re-opening (prior size: 47528.3 KB)
+0009.672 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 9100 files added (on-disk size: 50728 KB)
+0009.679 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 9200 files added (on-disk size: 50728 KB)
+0009.685 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 9300 files added (on-disk size: 50728 KB)
+0009.690 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 9400 files added (on-disk size: 50728 KB)
+0009.696 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 9500 files added (on-disk size: 50728 KB)
+0009.702 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 9600 files added (on-disk size: 50728 KB)
+0009.707 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 9700 files added (on-disk size: 50728 KB)
+0009.713 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 9800 files added (on-disk size: 50728 KB)
+0009.718 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 9900 files added (on-disk size: 50728 KB)
+0009.723 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 10000 files added (on-disk size: 50728 KB)
+0009.727 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (12.6 MB, 16783 files batched, 1001 (10010) added so far); re-opening (prior size: 50728 KB)
+0010.750 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 10100 files added (on-disk size: 55962 KB)
+0010.756 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 10200 files added (on-disk size: 55962 KB)
+0010.763 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 10300 files added (on-disk size: 55962 KB)
+0010.769 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 10400 files added (on-disk size: 55962 KB)
+0010.773 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 10500 files added (on-disk size: 55962 KB)
+0010.778 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 10600 files added (on-disk size: 55962 KB)
+0010.787 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 10700 files added (on-disk size: 55962 KB)
+0010.793 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 10800 files added (on-disk size: 55962 KB)
+0010.797 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 10900 files added (on-disk size: 55962 KB)
+0010.802 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 11000 files added (on-disk size: 55962 KB)
+0010.807 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (15.6 MB, 16783 files batched, 1001 (11011) added so far); re-opening (prior size: 55962 KB)
+0011.767 (0) PHP event: code E_WARNING: filesize(): stat failed for /homepages/10/d955808460/htdocs/wordpress/wp-content/updraft/backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp (line 506, wp-content/plugins/updraftplus/includes/class-zip.php)
+0011.781 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 11100 files added (on-disk size: 60679 KB)
+0011.787 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 11200 files added (on-disk size: 60679 KB)
+0011.792 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 11300 files added (on-disk size: 60679 KB)
+0011.798 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 11400 files added (on-disk size: 60679 KB)
+0011.803 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 11500 files added (on-disk size: 60679 KB)
+0011.808 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 11600 files added (on-disk size: 60679 KB)
+0011.813 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 11700 files added (on-disk size: 60679 KB)
+0011.818 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 11800 files added (on-disk size: 60679 KB)
+0011.823 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 11900 files added (on-disk size: 60679 KB)
+0011.828 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 12000 files added (on-disk size: 60679 KB)
+0011.832 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.7 MB, 16783 files batched, 1001 (12012) added so far); re-opening (prior size: 60679 KB)
+0012.296 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 12100 files added (on-disk size: 62730.3 KB)
+0012.303 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 12200 files added (on-disk size: 62730.3 KB)
+0012.308 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 12300 files added (on-disk size: 62730.3 KB)
+0012.314 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 12400 files added (on-disk size: 62730.3 KB)
+0012.318 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 12500 files added (on-disk size: 62730.3 KB)
+0012.325 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 12600 files added (on-disk size: 62730.3 KB)
+0012.329 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 12700 files added (on-disk size: 62730.3 KB)
+0012.333 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 12800 files added (on-disk size: 62730.3 KB)
+0012.338 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 12900 files added (on-disk size: 62730.3 KB)
+0012.343 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 13000 files added (on-disk size: 62730.3 KB)
+0012.346 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (3.8 MB, 16783 files batched, 1001 (13013) added so far); re-opening (prior size: 62730.3 KB)
+0012.705 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 13100 files added (on-disk size: 64106.9 KB)
+0012.711 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 13200 files added (on-disk size: 64106.9 KB)
+0012.717 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 13300 files added (on-disk size: 64106.9 KB)
+0012.723 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 13400 files added (on-disk size: 64106.9 KB)
+0012.729 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 13500 files added (on-disk size: 64106.9 KB)
+0012.735 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 13600 files added (on-disk size: 64106.9 KB)
+0012.740 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 13700 files added (on-disk size: 64106.9 KB)
+0012.746 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 13800 files added (on-disk size: 64106.9 KB)
+0012.752 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 13900 files added (on-disk size: 64106.9 KB)
+0012.758 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 14000 files added (on-disk size: 64106.9 KB)
+0012.761 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (5.3 MB, 16783 files batched, 1001 (14014) added so far); re-opening (prior size: 64106.9 KB)
+0013.170 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 14100 files added (on-disk size: 65594.5 KB)
+0013.176 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 14200 files added (on-disk size: 65594.5 KB)
+0013.182 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 14300 files added (on-disk size: 65594.5 KB)
+0013.187 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 14400 files added (on-disk size: 65594.5 KB)
+0013.193 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 14500 files added (on-disk size: 65594.5 KB)
+0013.199 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 14600 files added (on-disk size: 65594.5 KB)
+0013.204 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 14700 files added (on-disk size: 65594.5 KB)
+0013.208 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 14800 files added (on-disk size: 65594.5 KB)
+0013.213 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 14900 files added (on-disk size: 65594.5 KB)
+0013.218 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 15000 files added (on-disk size: 65594.5 KB)
+0013.221 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (5 MB, 16783 files batched, 1001 (15015) added so far); re-opening (prior size: 65594.5 KB)
+0013.625 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 15100 files added (on-disk size: 67111.9 KB)
+0013.632 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 15200 files added (on-disk size: 67111.9 KB)
+0013.639 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 15300 files added (on-disk size: 67111.9 KB)
+0013.645 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 15400 files added (on-disk size: 67111.9 KB)
+0013.651 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 15500 files added (on-disk size: 67111.9 KB)
+0013.656 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 15600 files added (on-disk size: 67111.9 KB)
+0013.661 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 15700 files added (on-disk size: 67111.9 KB)
+0013.666 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 15800 files added (on-disk size: 67111.9 KB)
+0013.671 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 15900 files added (on-disk size: 67111.9 KB)
+0013.676 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 16000 files added (on-disk size: 67111.9 KB)
+0013.680 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (19.9 MB, 16783 files batched, 1001 (16016) added so far); re-opening (prior size: 67111.9 KB)
+0015.024 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 16100 files added (on-disk size: 73024.9 KB)
+0015.030 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 16200 files added (on-disk size: 73024.9 KB)
+0015.040 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 16300 files added (on-disk size: 73024.9 KB)
+0015.048 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 16400 files added (on-disk size: 73024.9 KB)
+0015.058 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 16500 files added (on-disk size: 73024.9 KB)
+0015.072 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 16600 files added (on-disk size: 73024.9 KB)
+0015.085 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.tmp: 16700 files added (on-disk size: 73024.9 KB)
+0016.116 (0) Creating zip file manifest (backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.list-temp.tmp)
+0016.219 (0) Successfully created zip file manifest (size: 1691782)
+0017.144 (0) Created plugins zip (0) - 75130.4 KB in 16.9 s (4455.1 KB/s) (sha1: fbfca01f4708b040230220950a0f1f165e655f2b, sha256: b04836ae493c98059fa48dcf4f711835d08ef982cd63054bf3eddbf8534d5d0a)
+0017.173 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0017.176 (0) No remote despatch: user chose no remote backup service
+0017.180 (0) Recording as successfully uploaded: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip
+0017.187 (0) Deleting zip manifest (backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip.list.tmp)
+0017.198 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0017.201 (0) Number of backup sets in history: 0; groups (db): 1
+0017.204 (0) Number of backup sets in history: 0; groups (files): 1
+0017.207 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0017.229 (0) Beginning creation of dump of themes (split every: 400 MB)
+0017.278 (0) Total entities for the zip file: 111 directories, 529 files (0 skipped as non-modified), 19 MB
+0017.284 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0017.290 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0017.303 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0017.309 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0017.315 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0018.616 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-themes.zip.tmp: size is now: 13.20 MB
+0018.648 (0) Creating zip file manifest (backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-themes.zip.list-temp.tmp)
+0018.664 (0) Successfully created zip file manifest (size: 36279)
+0018.907 (0) Created themes zip (0) - 13541.7 KB in 1.7 s (8106.9 KB/s) (sha1: 936895ab4cb608480fb0dbfb2eccc5c44fda08bf, sha256: 7ab53e9d7c852ce93fa5d2e60ec4f4392b0ca815700a9107490076b3760efc6f)
+0018.919 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0018.922 (0) No remote despatch: user chose no remote backup service
+0018.926 (0) Recording as successfully uploaded: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-themes.zip
+0018.933 (0) Deleting zip manifest (backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-themes.zip.list.tmp)
+0018.942 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0018.946 (0) Number of backup sets in history: 0; groups (db): 1
+0018.949 (0) Number of backup sets in history: 0; groups (files): 1
+0018.952 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0018.967 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0018.970 (0) Looking for candidates to backup in: /homepages/10/d955808460/htdocs/wordpress/wp-content/uploads
+0018.973 (0) finding files: trustindex-google-widget.css: adding to list (1)
+0018.976 (0) finding files: woocommerce-placeholder-1024x1024.png: adding to list (2)
+0018.979 (0) finding files: woocommerce-placeholder-110x83.png: adding to list (3)
+0018.982 (0) finding files: woocommerce-placeholder-1170x517.png: adding to list (4)
+0018.986 (0) finding files: woocommerce-placeholder-1200x700.png: adding to list (5)
+0018.988 (0) finding files: woocommerce-placeholder-150x150.png: adding to list (6)
+0018.991 (0) finding files: woocommerce-placeholder-270x300.png: adding to list (7)
+0018.995 (0) finding files: woocommerce-placeholder-300x300.png: adding to list (8)
+0018.997 (0) finding files: woocommerce-placeholder-330x190.png: adding to list (9)
+0019.001 (0) finding files: woocommerce-placeholder-330x350.png: adding to list (10)
+0019.004 (0) finding files: woocommerce-placeholder-370x247.png: adding to list (11)
+0019.007 (0) finding files: woocommerce-placeholder-480x324.png: adding to list (12)
+0019.013 (0) finding files: woocommerce-placeholder-60x60.png: adding to list (13)
+0019.017 (0) finding files: woocommerce-placeholder-640x480.png: adding to list (14)
+0019.020 (0) finding files: woocommerce-placeholder-768x768.png: adding to list (15)
+0019.029 (0) finding files: woocommerce-placeholder-776x517.png: adding to list (16)
+0019.034 (0) finding files: woocommerce-placeholder.png: adding to list (17)
+0019.037 (0) finding files: mailpoet: adding to list (18)
+0019.043 (0) finding files: wc-logs: adding to list (19)
+0019.047 (0) finding files: woocommerce_uploads: adding to list (20)
+0019.050 (0) finding files: wpforms: adding to list (21)
+0019.054 (0) finding files: 2023: adding to list (22)
+0019.057 (0) finding files: ultimatemember: adding to list (23)
+0019.061 (0) finding files: sites: adding to list (24)
+0019.063 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0019.091 (0) Total entities for the zip file: 17 directories, 1218 files (0 skipped as non-modified), 135.5 MB
+0019.098 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0019.103 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0019.108 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0019.113 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.1 MB, 1218 files batched, 353 (353) added so far); re-opening (prior size: 0 KB)
+0019.319 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-uploads.zip.tmp: size is now: 24.80 MB
+0019.328 (0) A useful amount of data was added after this amount of zip processing: 1.1 s (normalised: 1.1 s, rate: 22620.2 KB/s)
+0019.335 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.1380960941315, normalised_time=1.1317318294764, max_time=19.331092834473, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+0019.342 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-uploads.zip.tmp: 400 files added (on-disk size: 25356.8 KB)
+0019.350 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-uploads.zip.tmp: 500 files added (on-disk size: 25356.8 KB)
+0019.356 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-uploads.zip.tmp: 600 files added (on-disk size: 25356.8 KB)
+0019.361 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-uploads.zip.tmp: 700 files added (on-disk size: 25356.8 KB)
+0019.366 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-uploads.zip.tmp: 800 files added (on-disk size: 25356.8 KB)
+0019.372 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-uploads.zip.tmp: 900 files added (on-disk size: 25356.8 KB)
+0019.377 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-uploads.zip.tmp: 1000 files added (on-disk size: 25356.8 KB)
+0019.383 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-uploads.zip.tmp: 1100 files added (on-disk size: 25356.8 KB)
+0019.389 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-uploads.zip.tmp: 1200 files added (on-disk size: 25356.8 KB)
+0032.333 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-uploads.zip.tmp: size is now: 135.30 MB
+0032.355 (0) Creating zip file manifest (backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-uploads.zip.list-temp.tmp)
+0032.365 (0) Successfully created zip file manifest (size: 87161)
+0035.529 (0) Created uploads zip (0) - 138590.4 KB in 16.5 s (8419.9 KB/s) (sha1: af60c9a68c6d5ba25fefffc584dfc003aacd0c39, sha256: 1278a22e8862fd2d47b74ed5a73646dff46be69f2cfe58c7bdec60e2035500ac)
+0035.546 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0035.550 (0) No remote despatch: user chose no remote backup service
+0035.553 (0) Recording as successfully uploaded: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-uploads.zip
+0035.560 (0) Deleting zip manifest (backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-uploads.zip.list.tmp)
+0035.569 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0035.572 (0) Number of backup sets in history: 0; groups (db): 1
+0035.575 (0) Number of backup sets in history: 0; groups (files): 1
+0035.579 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0035.595 (0) Beginning backup of other directories found in the content directory (index: 0)
+0035.599 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0035.602 (0) Looking for candidates to backup in: /homepages/10/d955808460/htdocs/wordpress/wp-content
+0035.608 (0) finding files: index.php: adding to list (1)
+0035.612 (0) finding files: languages: adding to list (2)
+0035.615 (0) finding files: plugins: skipping: this is the plugins directory
+0035.619 (0) finding files: themes: skipping: this is the themes directory
+0035.626 (0) finding files: upgrade: skipping: excluded by options
+0035.637 (0) finding files: uploads: skipping: this is the uploads directory
+0035.641 (0) finding files: backups-dup-lite: skipping: excluded by options (glob)
+0035.649 (0) finding files: logs: adding to list (3)
+0035.656 (0) finding files: updraft: skipping: this is the updraft directory
+0035.668 (0) Total entities for the zip file: 5 directories, 264 files (0 skipped as non-modified), 7.2 MB
+0035.673 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0035.678 (0) Zip: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0038.350 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-others.zip.tmp: size is now: 2.10 MB
+0038.361 (0) Creating zip file manifest (backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-others.zip.list-temp.tmp)
+0038.369 (0) Successfully created zip file manifest (size: 20494)
+0038.426 (0) Created others zip (0) - 2163.1 KB in 2.8 s (783.3 KB/s) (sha1: d128472999060bd3767db556f9f8b87c64391306, sha256: 7551ad863f77edbceb40af36fd8581032616ff660ad79e75f26852fb085e2b5a)
+0038.466 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0038.471 (0) No remote despatch: user chose no remote backup service
+0038.475 (0) Recording as successfully uploaded: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-others.zip
+0038.483 (0) Deleting zip manifest (backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-others.zip.list.tmp)
+0038.492 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0038.496 (0) Number of backup sets in history: 0; groups (db): 1
+0038.499 (0) Number of backup sets in history: 0; groups (files): 1
+0038.503 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0038.528 (0) Saving backup status to database (elements: 8)
+0038.556 (0) Beginning creation of database dump (WordPress DB)
+0038.561 (0) Couldn't get the sql_mode value (N;); will not attempt any adjustment
+0038.569 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0038.616 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1629 bytes total)
+0038.626 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0038.665 (0) Table wp_options: Total expected rows (via COUNT): 807
+0038.752 (0) Table wp_options: Rows added in this batch (next record: 17273): 803 (uncompressed bytes in this segment=1295183) in 0.10 seconds
+0038.768 (0) Table wp_options: finishing file(s) (2, 267.3 KB)
+0038.783 (0) Table wp_site: Total expected rows (via COUNT): 1
+0038.786 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0038.797 (0) Table wp_site: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=701) in 0.02 seconds
+0038.812 (0) Table wp_site: finishing file(s) (2, 0.4 KB)
+0038.825 (0) Table wp_blogs: Total expected rows (via COUNT): 2
+0038.828 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0038.841 (0) Table wp_blogs: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1334) in 0.02 seconds
+0038.857 (0) Table wp_blogs: finishing file(s) (2, 0.6 KB)
+0038.871 (0) Table wp_users: Total expected rows (via COUNT): 2
+0038.875 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0038.885 (0) Table wp_users: Rows added in this batch (next record: 5): 2 (uncompressed bytes in this segment=1897) in 0.02 seconds
+0038.896 (0) Table wp_users: finishing file(s) (2, 0.8 KB)
+0038.917 (0) Table wp_usermeta: Total expected rows (via COUNT): 98
+0038.921 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0038.931 (0) Table wp_usermeta: Rows added in this batch (next record: 264): 98 (uncompressed bytes in this segment=51081) in 0.03 seconds
+0038.952 (0) Table wp_usermeta: finishing file(s) (2, 7.9 KB)
+0038.970 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 653
+0038.995 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 1051): 653 (uncompressed bytes in this segment=294161) in 0.03 seconds
+0039.015 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 19.8 KB)
+0039.027 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0039.031 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=641) in 0.01 seconds
+0039.040 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0039.049 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 8
+0039.052 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0039.058 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=884) in 0.01 seconds
+0039.069 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.5 KB)
+0039.078 (0) Table wp_actionscheduler_logs: Total expected rows (approximate): 1919
+0039.099 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 3018): 1941 (uncompressed bytes in this segment=173310) in 0.02 seconds
+0039.111 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 17.8 KB)
+0039.128 (0) Table wp_blogmeta: Total expected rows (via COUNT): 0
+0039.135 (0) Table wp_blogmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=704) in 0.01 seconds
+0039.147 (0) Table wp_blogmeta: finishing file(s) (2, 0.4 KB)
+0039.162 (0) Table wp_commentmeta: Total expected rows (via COUNT): 4
+0039.165 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0039.172 (0) Table wp_commentmeta: Rows added in this batch (next record: 8): 4 (uncompressed bytes in this segment=963) in 0.02 seconds
+0039.187 (0) Table wp_commentmeta: finishing file(s) (2, 0.5 KB)
+0039.204 (0) Table wp_comments: Total expected rows (via COUNT): 3
+0039.208 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0039.212 (0) Table wp_comments: Rows added in this batch (next record: 6): 3 (uncompressed bytes in this segment=2909) in 0.01 seconds
+0039.223 (0) Table wp_comments: finishing file(s) (2, 0.9 KB)
+0039.243 (0) Table wp_links: Total expected rows (via COUNT): 0
+0039.250 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1515) in 0.01 seconds
+0039.262 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0039.284 (0) Table wp_postmeta: Total expected rows (via COUNT): 846
+0039.288 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0039.316 (0) Table wp_postmeta: Rows added in this batch (next record: 1595): 846 (uncompressed bytes in this segment=313442) in 0.04 seconds
+0039.331 (0) Table wp_postmeta: finishing file(s) (2, 30.5 KB)
+0039.352 (0) Table wp_posts: Total expected rows (via COUNT): 413
+0039.355 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0039.383 (0) Table wp_posts: Rows added in this batch (next record: 738): 413 (uncompressed bytes in this segment=642691) in 0.04 seconds
+0039.401 (0) Table wp_posts: finishing file(s) (2, 50.2 KB)
+0039.433 (0) Table wp_registration_log: Total expected rows (via COUNT): 1
+0039.438 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0039.447 (0) Table wp_registration_log: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=896) in 0.03 seconds
+0039.460 (0) Table wp_registration_log: finishing file(s) (2, 0.5 KB)
+0039.475 (0) Table wp_signups: Total expected rows (via COUNT): 0
+0039.481 (0) Table wp_signups: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1423) in 0.01 seconds
+0039.500 (0) Table wp_signups: finishing file(s) (2, 0.5 KB)
+0039.518 (0) Table wp_sitemeta: Total expected rows (via COUNT): 51
+0039.521 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0039.544 (0) Table wp_sitemeta: Rows added in this batch (next record: 57): 51 (uncompressed bytes in this segment=430907) in 0.04 seconds
+0039.570 (0) Table wp_sitemeta: finishing file(s) (2, 61.6 KB)
+0039.606 (0) Table wp_term_relationships: Total expected rows (approximate): 13
+0039.616 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 13 (uncompressed bytes in this segment=874) in 0.02 seconds
+0039.633 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0039.652 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 22
+0039.657 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0039.666 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 22): 22 (uncompressed bytes in this segment=1828) in 0.02 seconds
+0039.681 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.7 KB)
+0039.706 (0) Table wp_termmeta: Total expected rows (via COUNT): 2
+0039.713 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0039.723 (0) Table wp_termmeta: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=851) in 0.03 seconds
+0039.741 (0) Table wp_termmeta: finishing file(s) (2, 0.5 KB)
+0039.758 (0) Table wp_terms: Total expected rows (via COUNT): 22
+0039.762 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0039.766 (0) Table wp_terms: Rows added in this batch (next record: 22): 22 (uncompressed bytes in this segment=1573) in 0.01 seconds
+0039.776 (0) Table wp_terms: finishing file(s) (2, 0.7 KB)
+0039.790 (0) Table wp_2_commentmeta: Total expected rows (via COUNT): 0
+0039.798 (0) Table wp_2_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=752) in 0.01 seconds
+0039.812 (0) Table wp_2_commentmeta: finishing file(s) (2, 0.4 KB)
+0039.824 (0) Table wp_2_comments: Total expected rows (via COUNT): 1
+0039.828 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0039.845 (0) Table wp_2_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2440) in 0.02 seconds
+0039.861 (0) Table wp_2_comments: finishing file(s) (2, 0.9 KB)
+0039.880 (0) Table wp_2_links: Total expected rows (via COUNT): 0
+0039.890 (0) Table wp_2_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1527) in 0.01 seconds
+0039.903 (0) Table wp_2_links: finishing file(s) (2, 0.5 KB)
+0039.945 (0) Table wp_2_options: Total expected rows (via COUNT): 148
+0039.949 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0039.983 (0) Table wp_2_options: Rows added in this batch (next record: 152): 148 (uncompressed bytes in this segment=528192) in 0.06 seconds
+0040.003 (0) Table wp_2_options: finishing file(s) (2, 110.6 KB)
+0040.022 (0) Table wp_2_postmeta: Total expected rows (via COUNT): 53
+0040.026 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0040.035 (0) Table wp_2_postmeta: Rows added in this batch (next record: 53): 53 (uncompressed bytes in this segment=5919) in 0.02 seconds
+0040.060 (0) Table wp_2_postmeta: finishing file(s) (2, 1.6 KB)
+0040.078 (0) Table wp_2_posts: Total expected rows (via COUNT): 8
+0040.081 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0040.096 (0) Table wp_2_posts: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=6502) in 0.03 seconds
+0040.111 (0) Table wp_2_posts: finishing file(s) (2, 1.9 KB)
+0040.131 (0) Table wp_2_term_relationships: Total expected rows (approximate): 2
+0040.140 (0) Table wp_2_term_relationships: Rows added in this batch (next record: 1000): 2 (uncompressed bytes in this segment=735) in 0.01 seconds
+0040.154 (0) Table wp_2_term_relationships: finishing file(s) (2, 0.4 KB)
+0040.188 (0) Table wp_2_term_taxonomy: Total expected rows (via COUNT): 2
+0040.190 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0040.198 (0) Table wp_2_term_taxonomy: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1018) in 0.02 seconds
+0040.215 (0) Table wp_2_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0040.237 (0) Table wp_2_termmeta: Total expected rows (via COUNT): 0
+0040.244 (0) Table wp_2_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=725) in 0.02 seconds
+0040.258 (0) Table wp_2_termmeta: finishing file(s) (2, 0.4 KB)
+0040.268 (0) Table wp_2_terms: Total expected rows (via COUNT): 2
+0040.272 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0040.280 (0) Table wp_2_terms: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=851) in 0.01 seconds
+0040.289 (0) Table wp_2_terms: finishing file(s) (2, 0.5 KB)
+0040.302 (0) Table wp_2_um_metadata: Total expected rows (via COUNT): 0
+0040.311 (0) Table wp_2_um_metadata: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=792) in 0.01 seconds
+0040.323 (0) Table wp_2_um_metadata: finishing file(s) (2, 0.4 KB)
+0040.345 (0) Table wp_aioseo_cache: Total expected rows (via COUNT): 10
+0040.347 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0040.357 (0) Table wp_aioseo_cache: Rows added in this batch (next record: 10): 10 (uncompressed bytes in this segment=87005) in 0.03 seconds
+0040.371 (0) Table wp_aioseo_cache: finishing file(s) (2, 15.7 KB)
+0040.391 (0) Table wp_aioseo_notifications: Total expected rows (via COUNT): 1
+0040.394 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0040.399 (0) Table wp_aioseo_notifications: Rows added in this batch (next record: 2): 1 (uncompressed bytes in this segment=13390) in 0.01 seconds
+0040.411 (0) Table wp_aioseo_notifications: finishing file(s) (2, 9 KB)
+0040.429 (0) Table wp_aioseo_posts: Total expected rows (via COUNT): 19
+0040.432 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0040.444 (0) Table wp_aioseo_posts: Rows added in this batch (next record: 19): 19 (uncompressed bytes in this segment=26129) in 0.02 seconds
+0040.458 (0) Table wp_aioseo_posts: finishing file(s) (2, 2.5 KB)
+0040.468 (0) Table wp_bookacti_activities: Total expected rows (via COUNT): 0
+0040.476 (0) Table wp_bookacti_activities: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=867) in 0.01 seconds
+0040.485 (0) Table wp_bookacti_activities: finishing file(s) (2, 0.4 KB)
+0040.497 (0) Table wp_bookacti_booking_groups: Total expected rows (via COUNT): 0
+0040.501 (0) Table wp_bookacti_booking_groups: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1116) in 0.01 seconds
+0040.512 (0) Table wp_bookacti_booking_groups: finishing file(s) (2, 0.5 KB)
+0040.528 (0) Table wp_bookacti_bookings: Total expected rows (via COUNT): 0
+0040.538 (0) Table wp_bookacti_bookings: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1316) in 0.02 seconds
+0040.558 (0) Table wp_bookacti_bookings: finishing file(s) (2, 0.5 KB)
+0040.572 (0) Table wp_bookacti_event_groups: Total expected rows (via COUNT): 0
+0040.577 (0) Table wp_bookacti_event_groups: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1083) in 0.01 seconds
+0040.588 (0) Table wp_bookacti_event_groups: finishing file(s) (2, 0.5 KB)
+0040.599 (0) Table wp_bookacti_events: Total expected rows (via COUNT): 0
+0040.605 (0) Table wp_bookacti_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1211) in 0.01 seconds
+0040.619 (0) Table wp_bookacti_events: finishing file(s) (2, 0.5 KB)
+0040.631 (0) Table wp_bookacti_exports: Total expected rows (via COUNT): 0
+0040.635 (0) Table wp_bookacti_exports: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=840) in 0.01 seconds
+0040.645 (0) Table wp_bookacti_exports: finishing file(s) (2, 0.4 KB)
+0040.658 (0) Table wp_bookacti_form_fields: Total expected rows (via COUNT): 4
+0040.665 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0040.675 (0) Table wp_bookacti_form_fields: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=2007) in 0.02 seconds
+0040.689 (0) Table wp_bookacti_form_fields: finishing file(s) (2, 0.8 KB)
+0040.705 (0) Table wp_bookacti_forms: Total expected rows (via COUNT): 1
+0040.707 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0040.711 (0) Table wp_bookacti_forms: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=859) in 0.01 seconds
+0040.720 (0) Table wp_bookacti_forms: finishing file(s) (2, 0.5 KB)
+0040.730 (0) Table wp_bookacti_group_categories: Total expected rows (via COUNT): 0
+0040.737 (0) Table wp_bookacti_group_categories: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=711) in 0.01 seconds
+0040.749 (0) Table wp_bookacti_group_categories: finishing file(s) (2, 0.4 KB)
+0040.760 (0) Table wp_bookacti_groups_events: Total expected rows (via COUNT): 0
+0040.764 (0) Table wp_bookacti_groups_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=780) in 0.01 seconds
+0040.773 (0) Table wp_bookacti_groups_events: finishing file(s) (2, 0.4 KB)
+0040.784 (0) Table wp_bookacti_meta: Total expected rows (via COUNT): 13
+0040.787 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0040.793 (0) Table wp_bookacti_meta: Rows added in this batch (next record: 40): 13 (uncompressed bytes in this segment=1803) in 0.01 seconds
+0040.803 (0) Table wp_bookacti_meta: finishing file(s) (2, 0.8 KB)
+0040.813 (0) Table wp_bookacti_permissions: Total expected rows (via COUNT): 0
+0040.819 (0) Table wp_bookacti_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=708) in 0.01 seconds
+0040.831 (0) Table wp_bookacti_permissions: finishing file(s) (2, 0.4 KB)
+0040.846 (0) Table wp_bookacti_templates: Total expected rows (via COUNT): 1
+0040.850 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0040.857 (0) Table wp_bookacti_templates: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=686) in 0.01 seconds
+0040.869 (0) Table wp_bookacti_templates: finishing file(s) (2, 0.4 KB)
+0040.879 (0) Table wp_bookacti_templates_activities: Total expected rows (via COUNT): 0
+0040.885 (0) Table wp_bookacti_templates_activities: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=672) in 0.01 seconds
+0040.895 (0) Table wp_bookacti_templates_activities: finishing file(s) (2, 0.4 KB)
+0040.923 (0) Table wp_duplicator_packages: Total expected rows (via COUNT): 1
+0040.927 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0040.939 (0) Table wp_duplicator_packages: Rows added in this batch (next record: 2): 1 (uncompressed bytes in this segment=6910) in 0.02 seconds
+0040.954 (0) Table wp_duplicator_packages: finishing file(s) (2, 2.1 KB)
+0040.963 (0) Table wp_gla_attribute_mapping_rules: Total expected rows (via COUNT): 0
+0040.971 (0) Table wp_gla_attribute_mapping_rules: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=876) in 0.01 seconds
+0040.993 (0) Table wp_gla_attribute_mapping_rules: finishing file(s) (2, 0.4 KB)
+0041.012 (0) Table wp_gla_budget_recommendations: Total expected rows (approximate): 4230
+0041.064 (0) Table wp_gla_budget_recommendations: Rows added in this batch (next record: 4230): 4230 (uncompressed bytes in this segment=131508) in 0.05 seconds
+0041.121 (0) Table wp_gla_budget_recommendations: finishing file(s) (2, 33 KB)
+0041.139 (0) Table wp_gla_merchant_issues: Total expected rows (via COUNT): 0
+0041.145 (0) Table wp_gla_merchant_issues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1370) in 0.01 seconds
+0041.160 (0) Table wp_gla_merchant_issues: finishing file(s) (2, 0.5 KB)
+0041.177 (0) Table wp_gla_shipping_rates: Total expected rows (via COUNT): 0
+0041.181 (0) Table wp_gla_shipping_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=810) in 0.01 seconds
+0041.213 (0) Table wp_gla_shipping_rates: finishing file(s) (2, 0.4 KB)
+0041.242 (0) Table wp_gla_shipping_times: Total expected rows (via COUNT): 0
+0041.247 (0) Table wp_gla_shipping_times: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=621) in 0.02 seconds
+0041.262 (0) Table wp_gla_shipping_times: finishing file(s) (2, 0.4 KB)
+0041.283 (0) Table wp_mailpoet_automation_run_logs: Total expected rows (via COUNT): 0
+0041.290 (0) Table wp_mailpoet_automation_run_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1029) in 0.02 seconds
+0041.311 (0) Table wp_mailpoet_automation_run_logs: finishing file(s) (2, 0.4 KB)
+0041.333 (0) Table wp_mailpoet_automation_run_subjects: Total expected rows (via COUNT): 0
+0041.337 (0) Table wp_mailpoet_automation_run_subjects: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=924) in 0.01 seconds
+0041.355 (0) Table wp_mailpoet_automation_run_subjects: finishing file(s) (2, 0.4 KB)
+0041.367 (0) Table wp_mailpoet_automation_runs: Total expected rows (via COUNT): 0
+0041.370 (0) Table wp_mailpoet_automation_runs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1048) in 0.01 seconds
+0041.381 (0) Table wp_mailpoet_automation_runs: finishing file(s) (2, 0.5 KB)
+0041.391 (0) Table wp_mailpoet_automation_triggers: Total expected rows (approximate): 0
+0041.395 (0) Table wp_mailpoet_automation_triggers: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=737) in 0.01 seconds
+0041.407 (0) Table wp_mailpoet_automation_triggers: finishing file(s) (2, 0.4 KB)
+0041.421 (0) Table wp_mailpoet_automation_versions: Total expected rows (via COUNT): 2
+0041.424 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0041.434 (0) Table wp_mailpoet_automation_versions: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=2465) in 0.02 seconds
+0041.454 (0) Table wp_mailpoet_automation_versions: finishing file(s) (2, 0.9 KB)
+0041.470 (0) Table wp_mailpoet_automations: Total expected rows (via COUNT): 1
+0041.473 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0041.477 (0) Table wp_mailpoet_automations: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1199) in 0.01 seconds
+0041.491 (0) Table wp_mailpoet_automations: finishing file(s) (2, 0.6 KB)
+0041.506 (0) Table wp_mailpoet_custom_fields: Total expected rows (via COUNT): 0
+0041.513 (0) Table wp_mailpoet_custom_fields: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=912) in 0.01 seconds
+0041.528 (0) Table wp_mailpoet_custom_fields: finishing file(s) (2, 0.4 KB)
+0041.537 (0) Table wp_mailpoet_dynamic_segment_filters: Total expected rows (via COUNT): 0
+0041.541 (0) Table wp_mailpoet_dynamic_segment_filters: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=977) in 0.01 seconds
+0041.561 (0) Table wp_mailpoet_dynamic_segment_filters: finishing file(s) (2, 0.5 KB)
+0041.575 (0) Table wp_mailpoet_feature_flags: Total expected rows (via COUNT): 0
+0041.579 (0) Table wp_mailpoet_feature_flags: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=781) in 0.01 seconds
+0041.621 (0) Table wp_mailpoet_feature_flags: finishing file(s) (2, 0.4 KB)
+0041.641 (0) Table wp_mailpoet_forms: Total expected rows (via COUNT): 0
+0041.646 (0) Table wp_mailpoet_forms: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1037) in 0.01 seconds
+0041.680 (0) Table wp_mailpoet_forms: finishing file(s) (2, 0.5 KB)
+0041.704 (0) Table wp_mailpoet_log: Total expected rows (via COUNT): 0
+0041.709 (0) Table wp_mailpoet_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=844) in 0.02 seconds
+0041.724 (0) Table wp_mailpoet_log: finishing file(s) (2, 0.4 KB)
+0041.749 (0) Table wp_mailpoet_migrations: Total expected rows (via COUNT): 10
+0041.754 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0041.766 (0) Table wp_mailpoet_migrations: Rows added in this batch (next record: 10): 10 (uncompressed bytes in this segment=1756) in 0.03 seconds
+0041.779 (0) Table wp_mailpoet_migrations: finishing file(s) (2, 0.6 KB)
+0041.791 (0) Table wp_mailpoet_newsletter_links: Total expected rows (via COUNT): 0
+0041.798 (0) Table wp_mailpoet_newsletter_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=993) in 0.01 seconds
+0041.808 (0) Table wp_mailpoet_newsletter_links: finishing file(s) (2, 0.5 KB)
+0041.826 (0) Table wp_mailpoet_newsletter_option: Total expected rows (via COUNT): 8
+0041.829 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0041.837 (0) Table wp_mailpoet_newsletter_option: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=1505) in 0.02 seconds
+0041.855 (0) Table wp_mailpoet_newsletter_option: finishing file(s) (2, 0.6 KB)
+0041.868 (0) Table wp_mailpoet_newsletter_option_fields: Total expected rows (via COUNT): 24
+0041.871 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0041.878 (0) Table wp_mailpoet_newsletter_option_fields: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=2585) in 0.01 seconds
+0041.891 (0) Table wp_mailpoet_newsletter_option_fields: finishing file(s) (2, 0.7 KB)
+0041.904 (0) Table wp_mailpoet_newsletter_posts: Total expected rows (via COUNT): 0
+0041.920 (0) Table wp_mailpoet_newsletter_posts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=766) in 0.02 seconds
+0041.934 (0) Table wp_mailpoet_newsletter_posts: finishing file(s) (2, 0.4 KB)
+0041.946 (0) Table wp_mailpoet_newsletter_segment: Total expected rows (via COUNT): 0
+0041.950 (0) Table wp_mailpoet_newsletter_segment: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=806) in 0.01 seconds
+0041.966 (0) Table wp_mailpoet_newsletter_segment: finishing file(s) (2, 0.4 KB)
+0041.986 (0) Table wp_mailpoet_newsletter_templates: Total expected rows (via COUNT): 78
+0041.989 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0042.029 (0) Table wp_mailpoet_newsletter_templates: Rows added in this batch (next record: 78): 78 (uncompressed bytes in this segment=1129944) in 0.05 seconds
+0042.057 (0) Table wp_mailpoet_newsletter_templates: finishing file(s) (2, 69 KB)
+0042.075 (0) Table wp_mailpoet_newsletters: Total expected rows (via COUNT): 3
+0042.077 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0042.086 (0) Table wp_mailpoet_newsletters: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=37721) in 0.02 seconds
+0042.100 (0) Table wp_mailpoet_newsletters: finishing file(s) (2, 4 KB)
+0042.110 (0) Table wp_mailpoet_scheduled_task_subscribers: Total expected rows (approximate): 0
+0042.117 (0) Table wp_mailpoet_scheduled_task_subscribers: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=941) in 0.01 seconds
+0042.128 (0) Table wp_mailpoet_scheduled_task_subscribers: finishing file(s) (2, 0.4 KB)
+0042.148 (0) Table wp_mailpoet_scheduled_tasks: Total expected rows (via COUNT): 90
+0042.151 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0042.161 (0) Table wp_mailpoet_scheduled_tasks: Rows added in this batch (next record: 90): 90 (uncompressed bytes in this segment=16413) in 0.02 seconds
+0042.177 (0) Table wp_mailpoet_scheduled_tasks: finishing file(s) (2, 2.3 KB)
+0042.188 (0) Table wp_mailpoet_segments: Total expected rows (via COUNT): 3
+0042.192 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0042.200 (0) Table wp_mailpoet_segments: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1903) in 0.01 seconds
+0042.223 (0) Table wp_mailpoet_segments: finishing file(s) (2, 0.8 KB)
+0042.246 (0) Table wp_mailpoet_sending_queues: Total expected rows (via COUNT): 0
+0042.256 (0) Table wp_mailpoet_sending_queues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1348) in 0.02 seconds
+0042.271 (0) Table wp_mailpoet_sending_queues: finishing file(s) (2, 0.5 KB)
+0042.299 (0) Table wp_mailpoet_settings: Total expected rows (via COUNT): 23
+0042.302 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0042.314 (0) Table wp_mailpoet_settings: Rows added in this batch (next record: 23): 23 (uncompressed bytes in this segment=4826) in 0.02 seconds
+0042.327 (0) Table wp_mailpoet_settings: finishing file(s) (2, 1.6 KB)
+0042.336 (0) Table wp_mailpoet_statistics_bounces: Total expected rows (via COUNT): 0
+0042.345 (0) Table wp_mailpoet_statistics_bounces: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=707) in 0.01 seconds
+0042.369 (0) Table wp_mailpoet_statistics_bounces: finishing file(s) (2, 0.4 KB)
+0042.392 (0) Table wp_mailpoet_statistics_clicks: Total expected rows (via COUNT): 0
+0042.396 (0) Table wp_mailpoet_statistics_clicks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1116) in 0.01 seconds
+0042.417 (0) Table wp_mailpoet_statistics_clicks: finishing file(s) (2, 0.5 KB)
+0042.439 (0) Table wp_mailpoet_statistics_forms: Total expected rows (via COUNT): 0
+0042.456 (0) Table wp_mailpoet_statistics_forms: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=713) in 0.03 seconds
+0042.467 (0) Table wp_mailpoet_statistics_forms: finishing file(s) (2, 0.4 KB)
+0042.481 (0) Table wp_mailpoet_statistics_newsletters: Total expected rows (via COUNT): 0
+0042.484 (0) Table wp_mailpoet_statistics_newsletters: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=834) in 0.01 seconds
+0042.493 (0) Table wp_mailpoet_statistics_newsletters: finishing file(s) (2, 0.4 KB)
+0042.502 (0) Table wp_mailpoet_statistics_opens: Total expected rows (via COUNT): 0
+0042.507 (0) Table wp_mailpoet_statistics_opens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1070) in 0.01 seconds
+0042.518 (0) Table wp_mailpoet_statistics_opens: finishing file(s) (2, 0.5 KB)
+0042.529 (0) Table wp_mailpoet_statistics_unsubscribes: Total expected rows (via COUNT): 0
+0042.533 (0) Table wp_mailpoet_statistics_unsubscribes: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1177) in 0.01 seconds
+0042.543 (0) Table wp_mailpoet_statistics_unsubscribes: finishing file(s) (2, 0.5 KB)
+0042.553 (0) Table wp_mailpoet_statistics_woocommerce_purchases: Total expected rows (via COUNT): 0
+0042.557 (0) Table wp_mailpoet_statistics_woocommerce_purchases: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1289) in 0.01 seconds
+0042.573 (0) Table wp_mailpoet_statistics_woocommerce_purchases: finishing file(s) (2, 0.5 KB)
+0042.589 (0) Table wp_mailpoet_stats_notifications: Total expected rows (via COUNT): 0
+0042.596 (0) Table wp_mailpoet_stats_notifications: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=838) in 0.01 seconds
+0042.627 (0) Table wp_mailpoet_stats_notifications: finishing file(s) (2, 0.4 KB)
+0042.654 (0) Table wp_mailpoet_subscriber_custom_field: Total expected rows (via COUNT): 0
+0042.658 (0) Table wp_mailpoet_subscriber_custom_field: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=935) in 0.01 seconds
+0042.675 (0) Table wp_mailpoet_subscriber_custom_field: finishing file(s) (2, 0.4 KB)
+0042.693 (0) Table wp_mailpoet_subscriber_ips: Total expected rows (approximate): 0
+0042.697 (0) Table wp_mailpoet_subscriber_ips: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=634) in 0.01 seconds
+0042.713 (0) Table wp_mailpoet_subscriber_ips: finishing file(s) (2, 0.4 KB)
+0042.737 (0) Table wp_mailpoet_subscriber_segment: Total expected rows (via COUNT): 4
+0042.740 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0042.753 (0) Table wp_mailpoet_subscriber_segment: Rows added in this batch (next record: 5): 4 (uncompressed bytes in this segment=1305) in 0.02 seconds
+0042.796 (0) Table wp_mailpoet_subscriber_segment: finishing file(s) (2, 0.5 KB)
+0042.838 (0) Table wp_mailpoet_subscriber_tag: Total expected rows (via COUNT): 0
+0042.852 (0) Table wp_mailpoet_subscriber_tag: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=797) in 0.02 seconds
+0042.865 (0) Table wp_mailpoet_subscriber_tag: finishing file(s) (2, 0.4 KB)
+0042.897 (0) Table wp_mailpoet_subscribers: Total expected rows (via COUNT): 2
+0042.924 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0042.940 (0) Table wp_mailpoet_subscribers: Rows added in this batch (next record: 4): 2 (uncompressed bytes in this segment=3231) in 0.06 seconds
+0042.974 (0) Table wp_mailpoet_subscribers: finishing file(s) (2, 1 KB)
+0043.005 (0) Table wp_mailpoet_tags: Total expected rows (via COUNT): 0
+0043.026 (0) Table wp_mailpoet_tags: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=776) in 0.03 seconds
+0043.054 (0) Table wp_mailpoet_tags: finishing file(s) (2, 0.4 KB)
+0043.085 (0) Table wp_mailpoet_user_agents: Total expected rows (via COUNT): 0
+0043.097 (0) Table wp_mailpoet_user_agents: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=816) in 0.02 seconds
+0043.123 (0) Table wp_mailpoet_user_agents: finishing file(s) (2, 0.4 KB)
+0043.161 (0) Table wp_mailpoet_user_flags: Total expected rows (via COUNT): 1
+0043.189 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0043.242 (0) Table wp_mailpoet_user_flags: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1020) in 0.11 seconds
+0043.271 (0) Table wp_mailpoet_user_flags: finishing file(s) (2, 0.5 KB)
+0043.288 (0) Table wp_newsletter: Total expected rows (via COUNT): 2
+0043.291 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0043.295 (0) Table wp_newsletter: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=6368) in 0.01 seconds
+0043.305 (0) Table wp_newsletter: finishing file(s) (2, 1.1 KB)
+0043.329 (0) Table wp_newsletter_emails: Total expected rows (via COUNT): 2
+0043.333 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0043.346 (0) Table wp_newsletter_emails: Rows added in this batch (next record: 3): 2 (uncompressed bytes in this segment=27276) in 0.03 seconds
+0043.363 (0) Table wp_newsletter_emails: finishing file(s) (2, 5 KB)
+0043.375 (0) Table wp_newsletter_sent: Total expected rows (approximate): 4
+0043.383 (0) Table wp_newsletter_sent: Rows added in this batch (next record: 1000): 4 (uncompressed bytes in this segment=1084) in 0.01 seconds
+0043.397 (0) Table wp_newsletter_sent: finishing file(s) (2, 0.5 KB)
+0043.411 (0) Table wp_newsletter_stats: Total expected rows (via COUNT): 5
+0043.415 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0043.423 (0) Table wp_newsletter_stats: Rows added in this batch (next record: 6): 5 (uncompressed bytes in this segment=1161) in 0.02 seconds
+0043.469 (0) Table wp_newsletter_stats: finishing file(s) (2, 0.5 KB)
+0043.505 (0) Table wp_newsletter_user_logs: Total expected rows (via COUNT): 8
+0043.509 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0043.518 (0) Table wp_newsletter_user_logs: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=1577) in 0.04 seconds
+0043.539 (0) Table wp_newsletter_user_logs: finishing file(s) (2, 0.6 KB)
+0043.552 (0) Table wp_tec_events: Total expected rows (via COUNT): 3
+0043.556 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0043.560 (0) Table wp_tec_events: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1482) in 0.01 seconds
+0043.570 (0) Table wp_tec_events: finishing file(s) (2, 0.6 KB)
+0043.593 (0) Table wp_tec_occurrences: Total expected rows (via COUNT): 3
+0043.597 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0043.609 (0) Table wp_tec_occurrences: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1562) in 0.03 seconds
+0043.633 (0) Table wp_tec_occurrences: finishing file(s) (2, 0.7 KB)
+0043.657 (0) Table wp_trustindex_google_reviews: Total expected rows (approximate): 8
+0043.681 (0) Table wp_trustindex_google_reviews: Rows added in this batch (next record: 1000): 8 (uncompressed bytes in this segment=4563) in 0.03 seconds
+0043.701 (0) Table wp_trustindex_google_reviews: finishing file(s) (2, 2.2 KB)
+0043.749 (0) Table wp_um_metadata: Total expected rows (via COUNT): 0
+0043.757 (0) Table wp_um_metadata: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=780) in 0.03 seconds
+0043.785 (0) Table wp_um_metadata: finishing file(s) (2, 0.4 KB)
+0043.805 (0) Table wp_wc_admin_note_actions: Total expected rows (via COUNT): 49
+0043.808 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0043.817 (0) Table wp_wc_admin_note_actions: Rows added in this batch (next record: 455): 49 (uncompressed bytes in this segment=9423) in 0.02 seconds
+0043.830 (0) Table wp_wc_admin_note_actions: finishing file(s) (2, 2.1 KB)
+0043.862 (0) Table wp_wc_admin_notes: Total expected rows (via COUNT): 41
+0043.866 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0043.872 (0) Table wp_wc_admin_notes: Rows added in this batch (next record: 43): 41 (uncompressed bytes in this segment=21266) in 0.03 seconds
+0043.922 (0) Table wp_wc_admin_notes: finishing file(s) (2, 5.6 KB)
+0043.947 (0) Table wp_wc_category_lookup: Total expected rows (approximate): 4
+0043.969 (0) Table wp_wc_category_lookup: Rows added in this batch (next record: 1000): 4 (uncompressed bytes in this segment=633) in 0.03 seconds
+0043.988 (0) Table wp_wc_category_lookup: finishing file(s) (2, 0.4 KB)
+0044.006 (0) Table wp_wc_customer_lookup: Total expected rows (via COUNT): 0
+0044.010 (0) Table wp_wc_customer_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1453) in 0.01 seconds
+0044.028 (0) Table wp_wc_customer_lookup: finishing file(s) (2, 0.5 KB)
+0044.050 (0) Table wp_wc_download_log: Total expected rows (via COUNT): 0
+0044.054 (0) Table wp_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=776) in 0.01 seconds
+0044.070 (0) Table wp_wc_download_log: finishing file(s) (2, 0.4 KB)
+0044.084 (0) Table wp_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0044.089 (0) Table wp_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=728) in 0.01 seconds
+0044.105 (0) Table wp_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0044.118 (0) Table wp_wc_order_product_lookup: Total expected rows (via COUNT): 0
+0044.122 (0) Table wp_wc_order_product_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1222) in 0.01 seconds
+0044.145 (0) Table wp_wc_order_product_lookup: finishing file(s) (2, 0.5 KB)
+0044.170 (0) Table wp_wc_order_stats: Total expected rows (via COUNT): 0
+0044.176 (0) Table wp_wc_order_stats: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1147) in 0.01 seconds
+0044.205 (0) Table wp_wc_order_stats: finishing file(s) (2, 0.5 KB)
+0044.225 (0) Table wp_wc_order_tax_lookup: Total expected rows (approximate): 0
+0044.241 (0) Table wp_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=810) in 0.02 seconds
+0044.255 (0) Table wp_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0044.272 (0) Table wp_wc_product_attributes_lookup: Total expected rows (approximate): 0
+0044.276 (0) Table wp_wc_product_attributes_lookup: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=979) in 0.01 seconds
+0044.289 (0) Table wp_wc_product_attributes_lookup: finishing file(s) (2, 0.5 KB)
+0044.301 (0) Table wp_wc_product_download_directories: Total expected rows (via COUNT): 2
+0044.304 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.312 (0) Table wp_wc_product_download_directories: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=974) in 0.01 seconds
+0044.328 (0) Table wp_wc_product_download_directories: finishing file(s) (2, 0.5 KB)
+0044.342 (0) Table wp_wc_product_meta_lookup: Total expected rows (via COUNT): 1
+0044.346 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.350 (0) Table wp_wc_product_meta_lookup: Rows added in this batch (next record: 292): 1 (uncompressed bytes in this segment=1592) in 0.01 seconds
+0044.362 (0) Table wp_wc_product_meta_lookup: finishing file(s) (2, 0.6 KB)
+0044.379 (0) Table wp_wc_rate_limits: Total expected rows (via COUNT): 0
+0044.397 (0) Table wp_wc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=729) in 0.02 seconds
+0044.414 (0) Table wp_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+0044.432 (0) Table wp_wc_reserved_stock: Total expected rows (approximate): 0
+0044.445 (0) Table wp_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=676) in 0.02 seconds
+0044.459 (0) Table wp_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0044.473 (0) Table wp_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0044.478 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.487 (0) Table wp_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=871) in 0.02 seconds
+0044.500 (0) Table wp_wc_tax_rate_classes: finishing file(s) (2, 0.5 KB)
+0044.535 (0) Table wp_wc_webhooks: Total expected rows (via COUNT): 0
+0044.544 (0) Table wp_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1344) in 0.02 seconds
+0044.557 (0) Table wp_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0044.575 (0) Table wp_woocommerce_api_keys: Total expected rows (via COUNT): 0
+0044.579 (0) Table wp_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1189) in 0.01 seconds
+0044.592 (0) Table wp_woocommerce_api_keys: finishing file(s) (2, 0.5 KB)
+0044.604 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 1
+0044.608 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.616 (0) Table wp_woocommerce_attribute_taxonomies: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1186) in 0.01 seconds
+0044.630 (0) Table wp_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.5 KB)
+0044.642 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0044.655 (0) Table wp_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1625) in 0.02 seconds
+0044.674 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.6 KB)
+0044.697 (0) Table wp_woocommerce_log: Total expected rows (via COUNT): 0
+0044.702 (0) Table wp_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=800) in 0.01 seconds
+0044.721 (0) Table wp_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0044.740 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (via COUNT): 0
+0044.752 (0) Table wp_woocommerce_order_itemmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=826) in 0.02 seconds
+0044.769 (0) Table wp_woocommerce_order_itemmeta: finishing file(s) (2, 0.4 KB)
+0044.781 (0) Table wp_woocommerce_order_items: Total expected rows (via COUNT): 0
+0044.788 (0) Table wp_woocommerce_order_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=794) in 0.01 seconds
+0044.805 (0) Table wp_woocommerce_order_items: finishing file(s) (2, 0.4 KB)
+0044.819 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0044.825 (0) Table wp_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=853) in 0.01 seconds
+0044.836 (0) Table wp_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0044.844 (0) Table wp_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0044.851 (0) Table wp_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=918) in 0.01 seconds
+0044.861 (0) Table wp_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0044.873 (0) Table wp_woocommerce_sessions: Total expected rows (via COUNT): 1
+0044.875 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.882 (0) Table wp_woocommerce_sessions: Rows added in this batch (next record: 3): 1 (uncompressed bytes in this segment=3364) in 0.01 seconds
+0044.893 (0) Table wp_woocommerce_sessions: finishing file(s) (2, 1.3 KB)
+0044.903 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 1
+0044.906 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.909 (0) Table wp_woocommerce_shipping_zone_locations: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1032) in 0.01 seconds
+0044.919 (0) Table wp_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.5 KB)
+0044.928 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 1
+0044.932 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.941 (0) Table wp_woocommerce_shipping_zone_methods: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=911) in 0.01 seconds
+0044.977 (0) Table wp_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.5 KB)
+0045.004 (0) Table wp_woocommerce_shipping_zones: Total expected rows (via COUNT): 1
+0045.007 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0045.018 (0) Table wp_woocommerce_shipping_zones: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=753) in 0.02 seconds
+0045.033 (0) Table wp_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0045.048 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0045.057 (0) Table wp_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=903) in 0.01 seconds
+0045.068 (0) Table wp_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0045.082 (0) Table wp_woocommerce_tax_rates: Total expected rows (via COUNT): 0
+0045.087 (0) Table wp_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1412) in 0.01 seconds
+0045.103 (0) Table wp_woocommerce_tax_rates: finishing file(s) (2, 0.5 KB)
+0045.124 (0) Table wp_wpbs_booking_meta: Total expected rows (via COUNT): 2
+0045.129 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0045.142 (0) Table wp_wpbs_booking_meta: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=905) in 0.03 seconds
+0045.169 (0) Table wp_wpbs_booking_meta: finishing file(s) (2, 0.5 KB)
+0045.200 (0) Table wp_wpbs_bookings: Total expected rows (via COUNT): 2
+0045.213 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0045.226 (0) Table wp_wpbs_bookings: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=3031) in 0.04 seconds
+0045.269 (0) Table wp_wpbs_bookings: finishing file(s) (2, 0.8 KB)
+0045.307 (0) Table wp_wpbs_calendar_meta: Total expected rows (via COUNT): 1
+0045.311 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0045.325 (0) Table wp_wpbs_calendar_meta: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=872) in 0.04 seconds
+0045.361 (0) Table wp_wpbs_calendar_meta: finishing file(s) (2, 0.5 KB)
+0045.397 (0) Table wp_wpbs_calendars: Total expected rows (via COUNT): 1
+0045.405 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0045.417 (0) Table wp_wpbs_calendars: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=936) in 0.04 seconds
+0045.435 (0) Table wp_wpbs_calendars: finishing file(s) (2, 0.5 KB)
+0045.471 (0) Table wp_wpbs_event_meta: Total expected rows (via COUNT): 0
+0045.479 (0) Table wp_wpbs_event_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=740) in 0.03 seconds
+0045.509 (0) Table wp_wpbs_event_meta: finishing file(s) (2, 0.4 KB)
+0045.535 (0) Table wp_wpbs_events: Total expected rows (via COUNT): 1
+0045.538 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0045.547 (0) Table wp_wpbs_events: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=981) in 0.02 seconds
+0045.575 (0) Table wp_wpbs_events: finishing file(s) (2, 0.5 KB)
+0045.614 (0) Table wp_wpbs_form_meta: Total expected rows (via COUNT): 9
+0045.618 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0045.623 (0) Table wp_wpbs_form_meta: Rows added in this batch (next record: 9): 9 (uncompressed bytes in this segment=1383) in 0.04 seconds
+0045.642 (0) Table wp_wpbs_form_meta: finishing file(s) (2, 0.7 KB)
+0045.663 (0) Table wp_wpbs_forms: Total expected rows (via COUNT): 1
+0045.667 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0045.671 (0) Table wp_wpbs_forms: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1719) in 0.02 seconds
+0045.688 (0) Table wp_wpbs_forms: finishing file(s) (2, 0.7 KB)
+0045.711 (0) Table wp_wpbs_legend_item_meta: Total expected rows (via COUNT): 62
+0045.716 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0045.725 (0) Table wp_wpbs_legend_item_meta: Rows added in this batch (next record: 62): 62 (uncompressed bytes in this segment=3511) in 0.03 seconds
+0045.741 (0) Table wp_wpbs_legend_item_meta: finishing file(s) (2, 1.3 KB)
+0045.754 (0) Table wp_wpbs_legend_items: Total expected rows (via COUNT): 4
+0045.758 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0045.766 (0) Table wp_wpbs_legend_items: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=1396) in 0.02 seconds
+0045.776 (0) Table wp_wpbs_legend_items: finishing file(s) (2, 0.6 KB)
+0045.797 (0) Table wp_wpforms_logs: Total expected rows (via COUNT): 0
+0045.805 (0) Table wp_wpforms_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=736) in 0.02 seconds
+0045.823 (0) Table wp_wpforms_logs: finishing file(s) (2, 0.4 KB)
+0045.843 (0) Table wp_wpforms_tasks_meta: Total expected rows (via COUNT): 9
+0045.846 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0045.853 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 32): 9 (uncompressed bytes in this segment=1420) in 0.02 seconds
+0045.869 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.6 KB)
+0045.892 (0) Table wp_wpmailsmtp_debug_events: Total expected rows (via COUNT): 31
+0045.896 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0045.906 (0) Table wp_wpmailsmtp_debug_events: Rows added in this batch (next record: 31): 31 (uncompressed bytes in this segment=11266) in 0.02 seconds
+0045.915 (0) Table wp_wpmailsmtp_debug_events: finishing file(s) (2, 1.4 KB)
+0045.932 (0) Table wp_wpmailsmtp_tasks_meta: Total expected rows (via COUNT): 0
+0045.944 (0) Table wp_wpmailsmtp_tasks_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=700) in 0.02 seconds
+0045.966 (0) Table wp_wpmailsmtp_tasks_meta: finishing file(s) (2, 0.4 KB)
+0045.971 (0) PHP event: code E_WARNING: filemtime(): stat failed for /homepages/10/d955808460/htdocs/wordpress/wp-content/updraft/backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db.gz (line 1924, wp-content/plugins/updraftplus/backup.php)
+0045.980 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_options.table.tmpr17274.gz (1/149/fopen): adding to final database dump
+0045.989 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_options.table.gz (2/149/fopen): adding to final database dump
+0045.994 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_site.table.tmpr2.gz (3/149/fopen): adding to final database dump
+0045.998 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_site.table.gz (4/149/fopen): adding to final database dump
+0046.002 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_blogs.table.tmpr3.gz (5/149/fopen): adding to final database dump
+0046.006 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_blogs.table.gz (6/149/fopen): adding to final database dump
+0046.009 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_users.table.tmpr6.gz (7/149/fopen): adding to final database dump
+0046.012 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_users.table.gz (8/149/fopen): adding to final database dump
+0046.015 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_usermeta.table.tmpr265.gz (9/149/fopen): adding to final database dump
+0046.019 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_usermeta.table.gz (10/149/fopen): adding to final database dump
+0046.021 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_actionscheduler_actions.table.tmpr1052.gz (11/149/fopen): adding to final database dump
+0046.025 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_actionscheduler_actions.table.gz (12/149/fopen): adding to final database dump
+0046.028 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_actionscheduler_claims.table.tmpr0.gz (13/149/fopen): adding to final database dump
+0046.031 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_actionscheduler_claims.table.gz (14/149/fopen): adding to final database dump
+0046.035 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_actionscheduler_groups.table.tmpr9.gz (15/149/fopen): adding to final database dump
+0046.041 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_actionscheduler_groups.table.gz (16/149/fopen): adding to final database dump
+0046.045 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_actionscheduler_logs.table.tmpr3019.gz (17/149/fopen): adding to final database dump
+0046.050 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_actionscheduler_logs.table.gz (18/149/fopen): adding to final database dump
+0046.053 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_blogmeta.table.tmpr0.gz (19/149/fopen): adding to final database dump
+0046.057 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_blogmeta.table.gz (20/149/fopen): adding to final database dump
+0046.065 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_commentmeta.table.tmpr9.gz (21/149/fopen): adding to final database dump
+0046.070 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_commentmeta.table.gz (22/149/fopen): adding to final database dump
+0046.078 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_comments.table.tmpr7.gz (23/149/fopen): adding to final database dump
+0046.082 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_comments.table.gz (24/149/fopen): adding to final database dump
+0046.085 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_links.table.tmpr0.gz (25/149/fopen): adding to final database dump
+0046.088 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_links.table.gz (26/149/fopen): adding to final database dump
+0046.091 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_postmeta.table.tmpr1596.gz (27/149/fopen): adding to final database dump
+0046.096 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_postmeta.table.gz (28/149/fopen): adding to final database dump
+0046.099 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_posts.table.tmpr739.gz (29/149/fopen): adding to final database dump
+0046.104 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_posts.table.gz (30/149/fopen): adding to final database dump
+0046.107 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_registration_log.table.tmpr2.gz (31/149/fopen): adding to final database dump
+0046.111 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_registration_log.table.gz (32/149/fopen): adding to final database dump
+0046.114 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_signups.table.tmpr0.gz (33/149/fopen): adding to final database dump
+0046.117 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_signups.table.gz (34/149/fopen): adding to final database dump
+0046.120 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_sitemeta.table.tmpr58.gz (35/149/fopen): adding to final database dump
+0046.126 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_sitemeta.table.gz (36/149/fopen): adding to final database dump
+0046.129 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_term_relationships.table.tmpr100001.gz (37/149/fopen): adding to final database dump
+0046.133 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_term_relationships.table.gz (38/149/fopen): adding to final database dump
+0046.137 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_term_taxonomy.table.tmpr23.gz (39/149/fopen): adding to final database dump
+0046.140 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_term_taxonomy.table.gz (40/149/fopen): adding to final database dump
+0046.143 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_termmeta.table.tmpr3.gz (41/149/fopen): adding to final database dump
+0046.147 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_termmeta.table.gz (42/149/fopen): adding to final database dump
+0046.151 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_terms.table.tmpr23.gz (43/149/fopen): adding to final database dump
+0046.154 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_terms.table.gz (44/149/fopen): adding to final database dump
+0046.166 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_2_commentmeta.table.tmpr0.gz (45/149/fopen): adding to final database dump
+0046.171 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_2_commentmeta.table.gz (46/149/fopen): adding to final database dump
+0046.175 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_2_comments.table.tmpr2.gz (47/149/fopen): adding to final database dump
+0046.179 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_2_comments.table.gz (48/149/fopen): adding to final database dump
+0046.182 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_2_links.table.tmpr0.gz (49/149/fopen): adding to final database dump
+0046.186 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_2_links.table.gz (50/149/fopen): adding to final database dump
+0046.189 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_2_options.table.tmpr153.gz (51/149/fopen): adding to final database dump
+0046.201 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_2_options.table.gz (52/149/fopen): adding to final database dump
+0046.206 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_2_postmeta.table.tmpr54.gz (53/149/fopen): adding to final database dump
+0046.210 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_2_postmeta.table.gz (54/149/fopen): adding to final database dump
+0046.225 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_2_posts.table.tmpr9.gz (55/149/fopen): adding to final database dump
+0046.237 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_2_posts.table.gz (56/149/fopen): adding to final database dump
+0046.244 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_2_term_relationships.table.tmpr1001.gz (57/149/fopen): adding to final database dump
+0046.248 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_2_term_relationships.table.gz (58/149/fopen): adding to final database dump
+0046.252 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_2_term_taxonomy.table.tmpr3.gz (59/149/fopen): adding to final database dump
+0046.255 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_2_term_taxonomy.table.gz (60/149/fopen): adding to final database dump
+0046.259 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_2_termmeta.table.tmpr0.gz (61/149/fopen): adding to final database dump
+0046.262 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_2_termmeta.table.gz (62/149/fopen): adding to final database dump
+0046.265 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_2_terms.table.tmpr3.gz (63/149/fopen): adding to final database dump
+0046.268 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_2_terms.table.gz (64/149/fopen): adding to final database dump
+0046.271 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_2_um_metadata.table.tmpr0.gz (65/149/fopen): adding to final database dump
+0046.274 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_2_um_metadata.table.gz (66/149/fopen): adding to final database dump
+0046.277 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_aioseo_cache.table.tmpr11.gz (67/149/fopen): adding to final database dump
+0046.281 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_aioseo_cache.table.gz (68/149/fopen): adding to final database dump
+0046.283 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_aioseo_notifications.table.tmpr3.gz (69/149/fopen): adding to final database dump
+0046.290 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_aioseo_notifications.table.gz (70/149/fopen): adding to final database dump
+0046.292 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_aioseo_posts.table.tmpr20.gz (71/149/fopen): adding to final database dump
+0046.297 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_aioseo_posts.table.gz (72/149/fopen): adding to final database dump
+0046.301 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_bookacti_activities.table.tmpr0.gz (73/149/fopen): adding to final database dump
+0046.304 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_bookacti_activities.table.gz (74/149/fopen): adding to final database dump
+0046.310 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_bookacti_booking_groups.table.tmpr0.gz (75/149/fopen): adding to final database dump
+0046.318 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_bookacti_booking_groups.table.gz (76/149/fopen): adding to final database dump
+0046.321 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_bookacti_bookings.table.tmpr0.gz (77/149/fopen): adding to final database dump
+0046.326 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_bookacti_bookings.table.gz (78/149/fopen): adding to final database dump
+0046.333 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_bookacti_event_groups.table.tmpr0.gz (79/149/fopen): adding to final database dump
+0046.338 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_bookacti_event_groups.table.gz (80/149/fopen): adding to final database dump
+0046.341 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_bookacti_events.table.tmpr0.gz (81/149/fopen): adding to final database dump
+0046.345 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_bookacti_events.table.gz (82/149/fopen): adding to final database dump
+0046.349 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_bookacti_exports.table.tmpr0.gz (83/149/fopen): adding to final database dump
+0046.359 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_bookacti_exports.table.gz (84/149/fopen): adding to final database dump
+0046.364 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_bookacti_form_fields.table.tmpr5.gz (85/149/fopen): adding to final database dump
+0046.368 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_bookacti_form_fields.table.gz (86/149/fopen): adding to final database dump
+0046.371 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_bookacti_forms.table.tmpr2.gz (87/149/fopen): adding to final database dump
+0046.374 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_bookacti_forms.table.gz (88/149/fopen): adding to final database dump
+0046.378 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_bookacti_group_categories.table.tmpr0.gz (89/149/fopen): adding to final database dump
+0046.381 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_bookacti_group_categories.table.gz (90/149/fopen): adding to final database dump
+0046.385 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_bookacti_groups_events.table.tmpr0.gz (91/149/fopen): adding to final database dump
+0046.389 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_bookacti_groups_events.table.gz (92/149/fopen): adding to final database dump
+0046.392 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_bookacti_meta.table.tmpr41.gz (93/149/fopen): adding to final database dump
+0046.395 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_bookacti_meta.table.gz (94/149/fopen): adding to final database dump
+0046.398 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_bookacti_permissions.table.tmpr0.gz (95/149/fopen): adding to final database dump
+0046.409 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_bookacti_permissions.table.gz (96/149/fopen): adding to final database dump
+0046.413 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_bookacti_templates.table.tmpr2.gz (97/149/fopen): adding to final database dump
+0046.417 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_bookacti_templates.table.gz (98/149/fopen): adding to final database dump
+0046.422 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_bookacti_templates_activities.table.tmpr0.gz (99/149/fopen): adding to final database dump
+0046.438 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_bookacti_templates_activities.table.gz (100/149/fopen): adding to final database dump
+0046.441 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_duplicator_packages.table.tmpr3.gz (101/149/fopen): adding to final database dump
+0046.446 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_duplicator_packages.table.gz (102/149/fopen): adding to final database dump
+0046.450 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_gla_attribute_mapping_rules.table.tmpr0.gz (103/149/fopen): adding to final database dump
+0046.457 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_gla_attribute_mapping_rules.table.gz (104/149/fopen): adding to final database dump
+0046.465 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_gla_budget_recommendations.table.tmpr4231.gz (105/149/fopen): adding to final database dump
+0046.475 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_gla_budget_recommendations.table.gz (106/149/fopen): adding to final database dump
+0046.481 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_gla_merchant_issues.table.tmpr0.gz (107/149/fopen): adding to final database dump
+0046.487 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_gla_merchant_issues.table.gz (108/149/fopen): adding to final database dump
+0046.491 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_gla_shipping_rates.table.tmpr0.gz (109/149/fopen): adding to final database dump
+0046.497 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_gla_shipping_rates.table.gz (110/149/fopen): adding to final database dump
+0046.502 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_gla_shipping_times.table.tmpr0.gz (111/149/fopen): adding to final database dump
+0046.505 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_gla_shipping_times.table.gz (112/149/fopen): adding to final database dump
+0046.509 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_automation_run_logs.table.tmpr0.gz (113/149/fopen): adding to final database dump
+0046.512 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_automation_run_logs.table.gz (114/149/fopen): adding to final database dump
+0046.516 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_automation_run_subjects.table.tmpr0.gz (115/149/fopen): adding to final database dump
+0046.519 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_automation_run_subjects.table.gz (116/149/fopen): adding to final database dump
+0046.522 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_automation_runs.table.tmpr0.gz (117/149/fopen): adding to final database dump
+0046.526 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_automation_runs.table.gz (118/149/fopen): adding to final database dump
+0046.529 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_automation_triggers.table.tmpr1001.gz (119/149/fopen): adding to final database dump
+0046.533 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_automation_triggers.table.gz (120/149/fopen): adding to final database dump
+0046.536 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_automation_versions.table.tmpr3.gz (121/149/fopen): adding to final database dump
+0046.544 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_automation_versions.table.gz (122/149/fopen): adding to final database dump
+0046.548 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_automations.table.tmpr2.gz (123/149/fopen): adding to final database dump
+0046.552 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_automations.table.gz (124/149/fopen): adding to final database dump
+0046.556 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_custom_fields.table.tmpr0.gz (125/149/fopen): adding to final database dump
+0046.559 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_custom_fields.table.gz (126/149/fopen): adding to final database dump
+0046.563 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_dynamic_segment_filters.table.tmpr0.gz (127/149/fopen): adding to final database dump
+0046.566 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_dynamic_segment_filters.table.gz (128/149/fopen): adding to final database dump
+0046.570 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_feature_flags.table.tmpr0.gz (129/149/fopen): adding to final database dump
+0046.574 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_feature_flags.table.gz (130/149/fopen): adding to final database dump
+0046.577 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_forms.table.tmpr0.gz (131/149/fopen): adding to final database dump
+0046.581 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_forms.table.gz (132/149/fopen): adding to final database dump
+0046.586 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_log.table.tmpr0.gz (133/149/fopen): adding to final database dump
+0046.589 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_log.table.gz (134/149/fopen): adding to final database dump
+0046.592 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_migrations.table.tmpr11.gz (135/149/fopen): adding to final database dump
+0046.596 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_migrations.table.gz (136/149/fopen): adding to final database dump
+0046.599 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_newsletter_links.table.tmpr0.gz (137/149/fopen): adding to final database dump
+0046.603 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_newsletter_links.table.gz (138/149/fopen): adding to final database dump
+0046.606 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_newsletter_option.table.tmpr9.gz (139/149/fopen): adding to final database dump
+0046.610 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_newsletter_option.table.gz (140/149/fopen): adding to final database dump
+0046.616 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_newsletter_option_fields.table.tmpr25.gz (141/149/fopen): adding to final database dump
+0046.620 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_newsletter_option_fields.table.gz (142/149/fopen): adding to final database dump
+0046.625 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_newsletter_posts.table.tmpr0.gz (143/149/fopen): adding to final database dump
+0046.629 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_newsletter_posts.table.gz (144/149/fopen): adding to final database dump
+0046.633 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_newsletter_segment.table.tmpr0.gz (145/149/fopen): adding to final database dump
+0046.636 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_newsletter_segment.table.gz (146/149/fopen): adding to final database dump
+0046.640 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_newsletter_templates.table.tmpr79.gz (147/149/fopen): adding to final database dump
+0046.646 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_newsletter_templates.table.gz (148/149/fopen): adding to final database dump
+0046.649 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_newsletters.table.tmpr4.gz (149/149/fopen): adding to final database dump
+0046.653 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_newsletters.table.gz (150/149/fopen): adding to final database dump
+0046.657 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_scheduled_task_subscribers.table.tmpr1.gz (151/149/fopen): adding to final database dump
+0046.662 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_scheduled_task_subscribers.table.gz (152/149/fopen): adding to final database dump
+0046.665 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_scheduled_tasks.table.tmpr91.gz (153/149/fopen): adding to final database dump
+0046.670 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_scheduled_tasks.table.gz (154/149/fopen): adding to final database dump
+0046.675 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_segments.table.tmpr4.gz (155/149/fopen): adding to final database dump
+0046.680 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_segments.table.gz (156/149/fopen): adding to final database dump
+0046.683 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_sending_queues.table.tmpr0.gz (157/149/fopen): adding to final database dump
+0046.687 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_sending_queues.table.gz (158/149/fopen): adding to final database dump
+0046.693 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_settings.table.tmpr24.gz (159/149/fopen): adding to final database dump
+0046.703 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_settings.table.gz (160/149/fopen): adding to final database dump
+0046.710 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_statistics_bounces.table.tmpr0.gz (161/149/fopen): adding to final database dump
+0046.714 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_statistics_bounces.table.gz (162/149/fopen): adding to final database dump
+0046.718 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_statistics_clicks.table.tmpr0.gz (163/149/fopen): adding to final database dump
+0046.722 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_statistics_clicks.table.gz (164/149/fopen): adding to final database dump
+0046.726 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_statistics_forms.table.tmpr0.gz (165/149/fopen): adding to final database dump
+0046.731 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_statistics_forms.table.gz (166/149/fopen): adding to final database dump
+0046.734 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_statistics_newsletters.table.tmpr0.gz (167/149/fopen): adding to final database dump
+0046.737 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_statistics_newsletters.table.gz (168/149/fopen): adding to final database dump
+0046.741 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_statistics_opens.table.tmpr0.gz (169/149/fopen): adding to final database dump
+0046.751 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_statistics_opens.table.gz (170/149/fopen): adding to final database dump
+0046.755 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_statistics_unsubscribes.table.tmpr0.gz (171/149/fopen): adding to final database dump
+0046.758 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_statistics_unsubscribes.table.gz (172/149/fopen): adding to final database dump
+0046.761 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_statistics_woocommerce_purchases.table.tmpr0.gz (173/149/fopen): adding to final database dump
+0046.765 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_statistics_woocommerce_purchases.table.gz (174/149/fopen): adding to final database dump
+0046.768 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_stats_notifications.table.tmpr0.gz (175/149/fopen): adding to final database dump
+0046.772 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_stats_notifications.table.gz (176/149/fopen): adding to final database dump
+0046.776 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_subscriber_custom_field.table.tmpr0.gz (177/149/fopen): adding to final database dump
+0046.781 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_subscriber_custom_field.table.gz (178/149/fopen): adding to final database dump
+0046.785 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_subscriber_ips.table.tmpr1.gz (179/149/fopen): adding to final database dump
+0046.788 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_subscriber_ips.table.gz (180/149/fopen): adding to final database dump
+0046.793 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_subscriber_segment.table.tmpr6.gz (181/149/fopen): adding to final database dump
+0046.797 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_subscriber_segment.table.gz (182/149/fopen): adding to final database dump
+0046.800 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_subscriber_tag.table.tmpr0.gz (183/149/fopen): adding to final database dump
+0046.803 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_subscriber_tag.table.gz (184/149/fopen): adding to final database dump
+0046.807 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_subscribers.table.tmpr5.gz (185/149/fopen): adding to final database dump
+0046.811 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_subscribers.table.gz (186/149/fopen): adding to final database dump
+0046.820 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_tags.table.tmpr0.gz (187/149/fopen): adding to final database dump
+0046.826 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_tags.table.gz (188/149/fopen): adding to final database dump
+0046.832 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_user_agents.table.tmpr0.gz (189/149/fopen): adding to final database dump
+0046.846 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_user_agents.table.gz (190/149/fopen): adding to final database dump
+0046.853 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_user_flags.table.tmpr2.gz (191/149/fopen): adding to final database dump
+0046.861 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_mailpoet_user_flags.table.gz (192/149/fopen): adding to final database dump
+0046.865 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_newsletter.table.tmpr3.gz (193/149/fopen): adding to final database dump
+0046.873 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_newsletter.table.gz (194/149/fopen): adding to final database dump
+0046.876 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_newsletter_emails.table.tmpr4.gz (195/149/fopen): adding to final database dump
+0046.884 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_newsletter_emails.table.gz (196/149/fopen): adding to final database dump
+0046.891 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_newsletter_sent.table.tmpr1001.gz (197/149/fopen): adding to final database dump
+0046.896 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_newsletter_sent.table.gz (198/149/fopen): adding to final database dump
+0046.899 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_newsletter_stats.table.tmpr7.gz (199/149/fopen): adding to final database dump
+0046.908 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_newsletter_stats.table.gz (200/149/fopen): adding to final database dump
+0046.917 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_newsletter_user_logs.table.tmpr9.gz (201/149/fopen): adding to final database dump
+0046.921 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_newsletter_user_logs.table.gz (202/149/fopen): adding to final database dump
+0046.924 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_tec_events.table.tmpr4.gz (203/149/fopen): adding to final database dump
+0046.933 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_tec_events.table.gz (204/149/fopen): adding to final database dump
+0046.937 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_tec_occurrences.table.tmpr4.gz (205/149/fopen): adding to final database dump
+0046.942 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_tec_occurrences.table.gz (206/149/fopen): adding to final database dump
+0046.949 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_trustindex_google_reviews.table.tmpr1001.gz (207/149/fopen): adding to final database dump
+0046.956 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_trustindex_google_reviews.table.gz (208/149/fopen): adding to final database dump
+0046.962 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_um_metadata.table.tmpr0.gz (209/149/fopen): adding to final database dump
+0046.966 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_um_metadata.table.gz (210/149/fopen): adding to final database dump
+0046.972 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wc_admin_note_actions.table.tmpr456.gz (211/149/fopen): adding to final database dump
+0046.982 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wc_admin_note_actions.table.gz (212/149/fopen): adding to final database dump
+0046.989 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wc_admin_notes.table.tmpr44.gz (213/149/fopen): adding to final database dump
+0046.998 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wc_admin_notes.table.gz (214/149/fopen): adding to final database dump
+0047.005 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wc_category_lookup.table.tmpr1001.gz (215/149/fopen): adding to final database dump
+0047.013 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wc_category_lookup.table.gz (216/149/fopen): adding to final database dump
+0047.017 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wc_customer_lookup.table.tmpr0.gz (217/149/fopen): adding to final database dump
+0047.021 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wc_customer_lookup.table.gz (218/149/fopen): adding to final database dump
+0047.026 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wc_download_log.table.tmpr0.gz (219/149/fopen): adding to final database dump
+0047.029 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wc_download_log.table.gz (220/149/fopen): adding to final database dump
+0047.037 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wc_order_coupon_lookup.table.tmpr1.gz (221/149/fopen): adding to final database dump
+0047.045 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wc_order_coupon_lookup.table.gz (222/149/fopen): adding to final database dump
+0047.053 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wc_order_product_lookup.table.tmpr0.gz (223/149/fopen): adding to final database dump
+0047.057 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wc_order_product_lookup.table.gz (224/149/fopen): adding to final database dump
+0047.062 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wc_order_stats.table.tmpr0.gz (225/149/fopen): adding to final database dump
+0047.065 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wc_order_stats.table.gz (226/149/fopen): adding to final database dump
+0047.069 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wc_order_tax_lookup.table.tmpr1.gz (227/149/fopen): adding to final database dump
+0047.073 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wc_order_tax_lookup.table.gz (228/149/fopen): adding to final database dump
+0047.076 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wc_product_attributes_lookup.table.tmpr1001.gz (229/149/fopen): adding to final database dump
+0047.079 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wc_product_attributes_lookup.table.gz (230/149/fopen): adding to final database dump
+0047.082 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wc_product_download_directories.table.tmpr3.gz (231/149/fopen): adding to final database dump
+0047.085 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wc_product_download_directories.table.gz (232/149/fopen): adding to final database dump
+0047.088 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wc_product_meta_lookup.table.tmpr293.gz (233/149/fopen): adding to final database dump
+0047.091 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wc_product_meta_lookup.table.gz (234/149/fopen): adding to final database dump
+0047.095 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wc_rate_limits.table.tmpr0.gz (235/149/fopen): adding to final database dump
+0047.099 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wc_rate_limits.table.gz (236/149/fopen): adding to final database dump
+0047.102 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wc_reserved_stock.table.tmpr1.gz (237/149/fopen): adding to final database dump
+0047.106 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wc_reserved_stock.table.gz (238/149/fopen): adding to final database dump
+0047.109 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wc_tax_rate_classes.table.tmpr3.gz (239/149/fopen): adding to final database dump
+0047.112 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wc_tax_rate_classes.table.gz (240/149/fopen): adding to final database dump
+0047.123 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wc_webhooks.table.tmpr0.gz (241/149/fopen): adding to final database dump
+0047.132 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wc_webhooks.table.gz (242/149/fopen): adding to final database dump
+0047.136 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_woocommerce_api_keys.table.tmpr0.gz (243/149/fopen): adding to final database dump
+0047.140 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_woocommerce_api_keys.table.gz (244/149/fopen): adding to final database dump
+0047.145 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_woocommerce_attribute_taxonomies.table.tmpr2.gz (245/149/fopen): adding to final database dump
+0047.149 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_woocommerce_attribute_taxonomies.table.gz (246/149/fopen): adding to final database dump
+0047.153 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_woocommerce_downloadable_product_permissions.table.tmpr0.gz (247/149/fopen): adding to final database dump
+0047.158 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (248/149/fopen): adding to final database dump
+0047.161 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_woocommerce_log.table.tmpr0.gz (249/149/fopen): adding to final database dump
+0047.165 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_woocommerce_log.table.gz (250/149/fopen): adding to final database dump
+0047.169 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_woocommerce_order_itemmeta.table.tmpr0.gz (251/149/fopen): adding to final database dump
+0047.173 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_woocommerce_order_itemmeta.table.gz (252/149/fopen): adding to final database dump
+0047.183 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_woocommerce_order_items.table.tmpr0.gz (253/149/fopen): adding to final database dump
+0047.189 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_woocommerce_order_items.table.gz (254/149/fopen): adding to final database dump
+0047.193 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_woocommerce_payment_tokenmeta.table.tmpr0.gz (255/149/fopen): adding to final database dump
+0047.209 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_woocommerce_payment_tokenmeta.table.gz (256/149/fopen): adding to final database dump
+0047.214 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_woocommerce_payment_tokens.table.tmpr0.gz (257/149/fopen): adding to final database dump
+0047.235 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_woocommerce_payment_tokens.table.gz (258/149/fopen): adding to final database dump
+0047.241 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_woocommerce_sessions.table.tmpr4.gz (259/149/fopen): adding to final database dump
+0047.261 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_woocommerce_sessions.table.gz (260/149/fopen): adding to final database dump
+0047.269 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_woocommerce_shipping_zone_locations.table.tmpr2.gz (261/149/fopen): adding to final database dump
+0047.277 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_woocommerce_shipping_zone_locations.table.gz (262/149/fopen): adding to final database dump
+0047.281 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_woocommerce_shipping_zone_methods.table.tmpr2.gz (263/149/fopen): adding to final database dump
+0047.285 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_woocommerce_shipping_zone_methods.table.gz (264/149/fopen): adding to final database dump
+0047.293 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_woocommerce_shipping_zones.table.tmpr2.gz (265/149/fopen): adding to final database dump
+0047.297 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_woocommerce_shipping_zones.table.gz (266/149/fopen): adding to final database dump
+0047.301 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_woocommerce_tax_rate_locations.table.tmpr0.gz (267/149/fopen): adding to final database dump
+0047.305 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_woocommerce_tax_rate_locations.table.gz (268/149/fopen): adding to final database dump
+0047.309 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_woocommerce_tax_rates.table.tmpr0.gz (269/149/fopen): adding to final database dump
+0047.313 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_woocommerce_tax_rates.table.gz (270/149/fopen): adding to final database dump
+0047.317 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wpbs_booking_meta.table.tmpr3.gz (271/149/fopen): adding to final database dump
+0047.325 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wpbs_booking_meta.table.gz (272/149/fopen): adding to final database dump
+0047.329 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wpbs_bookings.table.tmpr3.gz (273/149/fopen): adding to final database dump
+0047.333 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wpbs_bookings.table.gz (274/149/fopen): adding to final database dump
+0047.340 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wpbs_calendar_meta.table.tmpr2.gz (275/149/fopen): adding to final database dump
+0047.345 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wpbs_calendar_meta.table.gz (276/149/fopen): adding to final database dump
+0047.349 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wpbs_calendars.table.tmpr2.gz (277/149/fopen): adding to final database dump
+0047.358 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wpbs_calendars.table.gz (278/149/fopen): adding to final database dump
+0047.362 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wpbs_event_meta.table.tmpr0.gz (279/149/fopen): adding to final database dump
+0047.368 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wpbs_event_meta.table.gz (280/149/fopen): adding to final database dump
+0047.373 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wpbs_events.table.tmpr2.gz (281/149/fopen): adding to final database dump
+0047.377 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wpbs_events.table.gz (282/149/fopen): adding to final database dump
+0047.385 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wpbs_form_meta.table.tmpr10.gz (283/149/fopen): adding to final database dump
+0047.394 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wpbs_form_meta.table.gz (284/149/fopen): adding to final database dump
+0047.402 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wpbs_forms.table.tmpr2.gz (285/149/fopen): adding to final database dump
+0047.406 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wpbs_forms.table.gz (286/149/fopen): adding to final database dump
+0047.411 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wpbs_legend_item_meta.table.tmpr63.gz (287/149/fopen): adding to final database dump
+0047.416 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wpbs_legend_item_meta.table.gz (288/149/fopen): adding to final database dump
+0047.423 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wpbs_legend_items.table.tmpr5.gz (289/149/fopen): adding to final database dump
+0047.428 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wpbs_legend_items.table.gz (290/149/fopen): adding to final database dump
+0047.433 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wpforms_logs.table.tmpr0.gz (291/149/fopen): adding to final database dump
+0047.437 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wpforms_logs.table.gz (292/149/fopen): adding to final database dump
+0047.441 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wpforms_tasks_meta.table.tmpr33.gz (293/149/fopen): adding to final database dump
+0047.445 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wpforms_tasks_meta.table.gz (294/149/fopen): adding to final database dump
+0047.449 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wpmailsmtp_debug_events.table.tmpr32.gz (295/149/fopen): adding to final database dump
+0047.464 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wpmailsmtp_debug_events.table.gz (296/149/fopen): adding to final database dump
+0047.469 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wpmailsmtp_tasks_meta.table.tmpr0.gz (297/149/fopen): adding to final database dump
+0047.493 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db-table-wp_wpmailsmtp_tasks_meta.table.gz (298/149/fopen): adding to final database dump
+0047.527 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db.gz: finished writing out complete database file (786.8 KB)
+0048.057 (0) Total database tables backed up: 149 (backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db.gz, size: 805770, sha1: 4b24caffa5a57af5a40bf36ddf23ca9fa2225e7b, sha256: 3c4e21c1897e3989c3fb372865f7ea212fde1c3b3da6ef09414af6654707272b)
+0048.075 (0) PHP event: code E_DEPRECATED: strlen(): Passing null to parameter #1 ($string) of type string is deprecated (line 2866, wp-content/plugins/updraftplus/backup.php)
+0048.089 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-plugins.zip: plugins: This file has already been successfully uploaded
+0048.093 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-themes.zip: themes: This file has already been successfully uploaded
+0048.098 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-uploads.zip: uploads: This file has already been successfully uploaded
+0048.101 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-others.zip: others: This file has already been successfully uploaded
+0048.105 (0) backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db.gz: db: This file has not yet been successfully uploaded: will queue
+0048.108 (0) Saving backup history. Total backup size: 224.8 MB
+0048.136 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0048.161 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0048.169 (0) No remote despatch: user chose no remote backup service
+0048.185 (0) Recording as successfully uploaded: backup_2023-04-01-1315_Lili_Beaute_amp_Coiffure_0e4111a5882c-db.gz
+0048.205 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0048.210 (0) Number of backup sets in history: 1; groups (db): 1
+0048.213 (0) Examining (for databases) backup set with group_id=0, nonce=0e4111a5882c, datestamp=1680347718 (Apr 01 2023 11:15:18)
+0048.217 (0) This backup set is the backup set just made, so will not be deleted.
+0048.217 (0) Number of backup sets in history: 1; groups (files): 1
+0048.221 (0) Examining (for files) backup set with nonce=0e4111a5882c, datestamp=1680347718 (Apr 01 2023 11:15:18)
+0048.221 (0) This backup set is the backup set just made, so will not be deleted.
+0048.229 (0) This backup set is the backup set just made, so will not be deleted.
+0048.235 (0) This backup set is the backup set just made, so will not be deleted.
+0048.235 (0) This backup set is the backup set just made, so will not be deleted.
+0048.235 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0048.241 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0048.261 (0) Resume backup (0e4111a5882c, 0): finish run
+0048.285 (0) Decremented the semaphore (fd) by 1
+0048.301 (0) Semaphore (fd) unlocked
+0048.309 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0048.333 (0) No email will/can be sent - the user has not configured an email address.
+0048.341 (0) The backup apparently succeeded and is now complete

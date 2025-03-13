@@ -1,0 +1,28 @@
+06-07-2023 17:07:19 - INFO  - 7.8.8 - 86,1 Mo/ - [cron] > Start upgrade from 7.8.7
+06-07-2023 17:07:21 - INFO  - 7.8.8 - 92,3 Mo/ - [cron] > Array
+(
+    [`wp_newsletter_emails`] => Created table `wp_newsletter_emails`
+)
+
+06-07-2023 17:07:21 - INFO  - 7.8.8 - 92,3 Mo/ - [cron] > Array
+(
+    [`wp_newsletter_sent`] => Created table `wp_newsletter_sent`
+)
+
+06-07-2023 17:07:21 - INFO  - 7.8.8 - 92,3 Mo/ - [cron] > Array
+(
+    [`wp_newsletter`] => Created table `wp_newsletter`
+)
+
+06-07-2023 17:07:21 - INFO  - 7.8.8 - 92,3 Mo/ - [cron] > Array
+(
+    [`wp_newsletter_user_logs`] => Created table `wp_newsletter_user_logs`
+)
+
+06-07-2023 17:07:21 - INFO  - 7.8.8 - 92,3 Mo/ - [cron] > Array
+(
+    [`wp_newsletter_stats`] => Created table `wp_newsletter_stats`
+)
+
+06-07-2023 17:07:21 - INFO  - 7.8.8 - 92,3 Mo/ - [cron] > Backing up options of 7.8.7
+06-07-2023 17:07:21 - INFO  - 7.8.8 - 92,3 Mo/ - [cron] > End

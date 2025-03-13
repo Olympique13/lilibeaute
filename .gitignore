@@ -10,3 +10,8 @@ wp-content/backup-*/
 *.gz
 wp-config.php
 wp-config-sample.php
+
+# Fichiers secrets à ignorer
+*.env
+*.json
+*.txt
